@@ -21,7 +21,7 @@ Trained on the labelled NLTK Penn Treebank (`nltk.corpus.treebank`), as the brie
 | Metric | Value |
 |---|---|
 | Full-parse coverage | 0.9733 (146/150) |
-| Avg parse time (s) | 0.7366 |
+| Avg parse time (s) | 0.8176 |
 
 ## Per-tag detail
 
