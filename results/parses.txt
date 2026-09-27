@@ -1,4 +1,4 @@
-### sentence_id 1: The Canada Border Services Agency has seized suitcases packed with illicit substances bound for Sri Lanka at Toronto Pearson International Airport .
+### sentence_id 1: The Canada Border Services Agency has seized suitcases packed with illicit substances bound for Sri Lanka at Toronto Pearson International Airport earlier this month .
 (TOP
   (S
     (NP
@@ -9,25 +9,30 @@
       (VBZ has)
       (VP
         (VBD seized)
-        (NP (NN suitcases))
-        (PP
-          (JJ packed)
-          (IN with)
-          (NP (NN illicit) (NN substances) (NN bound)))
-        (PP
-          (IN for)
+        (ADVP
           (NP
-            (NP (NN Sri) (NN Lanka))
+            (NP
+              (NP (NN suitcases))
+              (PP
+                (JJ packed)
+                (IN with)
+                (NP (NN illicit) (NN substances) (NN bound))))
             (PP
-              (IN at)
+              (IN for)
               (NP
-                (NNP Toronto)
-                (NN Pearson)
-                (NNP International)
-                (NN Airport)))))))
+                (NP (NN Sri) (NN Lanka))
+                (PP
+                  (IN at)
+                  (NP
+                    (NNP Toronto)
+                    (NN Pearson)
+                    (NNP International)
+                    (NN Airport))))))
+          (JJR earlier))
+        (NP (DT this) (NN month))))
     (. .)))
 
-### sentence_id 2: In a statement to CTV News , a CBSA spokesperson said the seizure took place in September .
+### sentence_id 2: In a statement to CTV News , a CBSA spokesperson said the seizure took place Sept .
 (TOP
   (S
     (PP
@@ -41,10 +46,7 @@
       (SBAR
         (S
           (NP (DT the) (NN seizure))
-          (VP
-            (VBD took)
-            (NP (NN place))
-            (PP (IN in) (NP (NNP September)))))))
+          (VP (VBD took) (NP (NN place) (NN Sept))))))
     (. .)))
 
 ### sentence_id 3: Border officials seized a total of 44 kilograms of hashish and 13 kilograms of cocaine .
@@ -95,32 +97,38 @@
       (VP (VBD were) (ADJP (RB immediately) (JJ available))))
     (. .)))
 
-### sentence_id 6: CBSA officers use a risk management approach and detection tools to determine if a more in-depth examination is required .
+### sentence_id 6: CBSA officers use a risk management approach , intelligence information , detection tools and look for indicators of deception to determine if a more in-depth examination is required ,
 (TOP
   (S
     (NP (NN CBSA) (NNS officers))
     (VP
-      (VBP use)
-      (NP
-        (DT a)
-        (NN risk)
-        (NN management)
-        (NN approach)
-        (CC and)
-        (NN detection)
-        (NNS tools))
-      (S
-        (VP
-          (TO to)
-          (VP
-            (VB determine)
-            (SBAR
-              (IN if)
-              (S
-                (ADVP (DT a) (RBR more))
-                (NP (NN in-depth) (NN examination))
-                (VP (VBZ is) (VP (VBN required)))
-                (. .)))))))))
+      (VP
+        (VBP use)
+        (NP
+          (NP (DT a) (NN risk) (NN management) (NN approach))
+          (, ,)
+          (NP (NN intelligence) (NN information))
+          (, ,)
+          (NP (NN detection) (NNS tools))))
+      (CC and)
+      (VP
+        (VB look)
+        (PP (IN for) (NP (NNS indicators)))
+        (SBAR
+          (IN of)
+          (NN deception)
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB determine)
+                (SBAR
+                  (IN if)
+                  (S
+                    (ADVP (DT a) (RBR more))
+                    (NP (NN in-depth) (NN examination))
+                    (VP (VBZ is) (VP (VBN required)))
+                    (, ,)))))))))))
 
 ### sentence_id 7: The government has dismissed reports alleging that it is taking steps to curtail rooftop solar power while promoting other energy sources .
 (TOP
@@ -152,39 +160,43 @@
                           (NP (JJ other) (NN energy) (NNS sources)))))))))))))
     (. .)))
 
-### sentence_id 8: Energy Minister Anura Karunathilake said the allegations were baseless .
+### sentence_id 8: Energy Minister Anura Karunathilake , speaking at a news briefing today , said the allegations were baseless and pointed to the government 's efforts to expand solar power generation across the country .
 (TOP
   (S
     (NP (NNP Energy) (NNP Minister) (NN Anura) (NN Karunathilake))
+    (, ,)
+    (S
+      (VP
+        (VBG speaking)
+        (PP (IN at) (NP (DT a) (NN news) (NN briefing) (NN today)))))
+    (, ,)
     (VP
       (VBD said)
       (SBAR
         (S
           (NP (DT the) (NNS allegations))
-          (VP (VBD were) (NP (NN baseless))))))
-    (. .)))
-
-### sentence_id 9: The Minister pointed to the government 's efforts to expand solar power generation across the country .
-(TOP
-  (S
-    (NP (DT The) (NNP Minister))
-    (VP
-      (VBD pointed)
-      (PP (TO to) (NP (DT the) (NN government) (POS 's)))
-      (NP (NNS efforts))
-      (S
-        (VP
-          (TO to)
           (VP
-            (VB expand)
-            (NP (NN solar) (NN power) (NN generation))
-            (PP (IN across) (NP (DT the) (NN country)))))))
+            (VP (VBD were) (NP (NN baseless)))
+            (CC and)
+            (VP
+              (VBD pointed)
+              (PP (TO to) (NP (DT the) (NN government) (POS 's)))
+              (NP (NNS efforts))
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB expand)
+                    (NP (NN solar) (NN power) (NN generation))
+                    (PP (IN across) (NP (DT the) (NN country)))))))))))
     (. .)))
 
-### sentence_id 10: The government has facilitated the addition of rooftop and ground-mounted solar capacity to the national grid over the past two years .
+### sentence_id 9: According to the Minister , the government has facilitated the addition of 1,513 MW of rooftop and ground-mounted solar capacity to the national grid over the past two years .
 (TOP
   (S
-    (NP (DT The) (NN government))
+    (PP (VBG According) (PP (TO to) (NP (DT the) (NNP Minister))))
+    (, ,)
+    (NP (DT the) (NN government))
     (VP
       (VBZ has)
       (S
@@ -195,11 +207,15 @@
             (IN of)
             (NP
               (NP
-                (NN rooftop)
-                (CC and)
-                (NN ground-mounted)
-                (NN solar)
-                (NN capacity))
+                (NP (NN 1,513) (NN MW))
+                (PP
+                  (IN of)
+                  (NP
+                    (NN rooftop)
+                    (CC and)
+                    (NN ground-mounted)
+                    (NN solar)
+                    (NN capacity))))
               (PP
                 (TO to)
                 (NP
@@ -209,7 +225,7 @@
                     (NP (DT the) (JJ past) (CD two) (NNS years))))))))))
     (. .)))
 
-### sentence_id 11: He said rooftop solar accounted for most of the capacity added to the grid during 2025 and 2026 .
+### sentence_id 10: He said rooftop solar accounted for 1,141.1 MW of the capacity added to the grid during 2025 and 2026 , while a further 534 MW came from ground-mounted solar projects .
 (TOP
   (S
     (NP (PRP He))
@@ -220,7 +236,7 @@
           (NP (NN rooftop) (NN solar))
           (VP
             (VBN accounted)
-            (ADVP (IN for) (JJS most))
+            (PP (IN for) (NP (NN 1,141.1) (NN MW)))
             (SBAR
               (IN of)
               (S
@@ -228,10 +244,23 @@
                 (VP
                   (VBD added)
                   (PP (TO to) (NP (DT the) (NN grid)))
-                  (PP (IN during) (NP (NN 2025) (CC and) (NN 2026))))))))))
+                  (PP (IN during) (NP (NN 2025) (CC and) (NN 2026)))
+                  (, ,)
+                  (SBAR
+                    (IN while)
+                    (S
+                      (NP (DT a) (JJ further) (CD 534) (NN MW))
+                      (VP
+                        (VBD came)
+                        (PP
+                          (IN from)
+                          (NP
+                            (NN ground-mounted)
+                            (NN solar)
+                            (NNS projects)))))))))))))
     (. .)))
 
-### sentence_id 12: The government plans to increase solar power capacity connected to the national grid by 2029 .
+### sentence_id 11: The government plans to increase solar power capacity connected to the national grid by a further 4,585.7 MW by 2029 , the Minister said .
 (TOP
   (S
     (NP (DT The) (NN government))
@@ -243,11 +272,48 @@
           (VP
             (VB increase)
             (S
-              (NP (NN solar) (NN power) (NN capacity))
+              (S
+                (NP (NN solar) (NN power) (NN capacity))
+                (VP
+                  (VBN connected)
+                  (PP (TO to) (NP (DT the) (JJ national) (NN grid)))
+                  (PP
+                    (IN by)
+                    (NP
+                      (NP (DT a) (JJ further) (NN 4,585.7) (NN MW))
+                      (PP (IN by) (NP (CD 2029)))))))
+              (, ,)
+              (NP (DT the) (NNP Minister))
+              (VP (VBD said))
+              (. .))))))))
+
+### sentence_id 12: He said encouraging commuters to use public transport could reduce the number of vehicles entering Colombo and help ease traffic congestion .
+(TOP
+  (S
+    (NP (PRP He))
+    (VP
+      (VBD said)
+      (SBAR
+        (S
+          (NP
+            (NP (VBG encouraging) (NN commuters))
+            (SBAR
+              (S
+                (VP
+                  (TO to)
+                  (VP (VB use) (NP (JJ public) (NN transport)))))))
+          (VP
+            (VP
+              (MD could)
               (VP
-                (VBN connected)
-                (PP (TO to) (NP (DT the) (JJ national) (NN grid)))
-                (PP (IN by) (NP (CD 2029)))))))))
+                (VB reduce)
+                (NP (DT the) (NN number))
+                (PP (IN of) (NP (NNS vehicles)))
+                (S (VP (VBG entering) (NP (NN Colombo))))))
+            (CC and)
+            (VP
+              (VB help)
+              (VP (VB ease) (NP (NN traffic) (NN congestion))))))))
     (. .)))
 
 ### sentence_id 13: There is an idea in crisis communications that saying nothing is the safest option .
@@ -267,21 +333,39 @@
           (VP (VBZ is) (NP (DT the) (NN safest) (NN option))))))
     (. .)))
 
-### sentence_id 14: But silence can create space for others to tell the story .
+### sentence_id 14: But silence can create space for others to tell the story , and you must decide whether you can live with their version .
 (TOP
   (S
-    (CC But)
-    (NP (NN silence))
-    (VP
-      (MD can)
+    (S
+      (CC But)
+      (NP (NN silence))
       (VP
-        (VB create)
-        (NP (NN space))
-        (PP (IN for) (NP (NNS others)))
-        (S (VP (TO to) (VP (VBP tell) (NP (DT the) (NN story)))))))
+        (MD can)
+        (VP
+          (VB create)
+          (NP (NN space))
+          (PP (IN for) (NP (NNS others)))
+          (S (VP (TO to) (VP (VBP tell) (NP (DT the) (NN story))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP
+        (MD must)
+        (VP
+          (VB decide)
+          (SBAR
+            (IN whether)
+            (S
+              (NP (PRP you))
+              (VP
+                (MD can)
+                (VP
+                  (VB live)
+                  (PP (IN with) (NP (PRP$ their) (NN version))))))))))
     (. .)))
 
-### sentence_id 15: The Palace chose to answer , breaking with its usual reluctance to comment on books .
+### sentence_id 15: The Palace chose to answer , breaking with its usual reluctance to comment on books and ensuring that its response became a story in its own right .
 (TOP
   (S
     (NP (DT The) (NN Palace))
@@ -301,7 +385,21 @@
               (S
                 (VP
                   (TO to)
-                  (VP (VB comment) (PP (IN on) (NP (NNS books)))))))))))
+                  (VP
+                    (VB comment)
+                    (PP
+                      (IN on)
+                      (NP (NNS books) (CC and) (NN ensuring)))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (NP (PRP$ its) (NN response))
+                        (VP
+                          (VBD became)
+                          (NP (DT a) (NN story))
+                          (PP
+                            (IN in)
+                            (NP (PRP$ its) (JJ own) (NN right))))))))))))))
     (. .)))
 
 ### sentence_id 16: Communications is not always about making a story disappear .
@@ -362,10 +460,13 @@
               (VP (VB take) (NP (NNS sides)) (PP (IN on))))))))
     (. .)))
 
-### sentence_id 20: The King can not sensibly engage in a running public argument with his former brother-in-law .
+### sentence_id 20: The King , as head of state , can not sensibly engage in a running public argument with his former brother-in-law .
 (TOP
   (S
     (NP (DT The) (NN King))
+    (, ,)
+    (PP (IN as) (NP (NP (NN head)) (PP (IN of) (NP (NN state)))))
+    (, ,)
     (VP
       (MD can)
       (ADVP (RB not) (NP (NN sensibly)))
@@ -380,7 +481,7 @@
               (NP (PRP$ his) (JJ former) (NN brother-in-law)))))))
     (. .)))
 
-### sentence_id 21: Continued attention may help Spencer sell a new book .
+### sentence_id 21: Continued attention may help Spencer sell a new book ; for the Palace , there is far more value in bringing the matter to a close .
 (TOP
   (S
     (NP (VBN Continued) (NN attention))
@@ -389,9 +490,26 @@
       (VP
         (VB help)
         (S
-          (NP (NN Spencer))
-          (VP (VBP sell) (NP (DT a) (JJ new) (NN book))))))
-    (. .)))
+          (S
+            (NP (NN Spencer))
+            (VP (VBP sell) (NP (DT a) (JJ new) (NN book))))
+          (: ;)
+          (S
+            (PP (IN for) (NP (DT the) (NN Palace)))
+            (, ,)
+            (NP (EX there))
+            (VP
+              (VBZ is)
+              (ADVP (RB far) (RBR more))
+              (NP (NN value))
+              (PP
+                (IN in)
+                (S
+                  (VP
+                    (VBG bringing)
+                    (NP (DT the) (NN matter))
+                    (PP (TO to) (NP (DT a) (NN close))))))))
+          (. .))))))
 
 ### sentence_id 22: The difficulty is that going public changes the dispute itself .
 (TOP
@@ -409,15 +527,26 @@
       (NP (PRP itself)))
     (. .)))
 
-### sentence_id 23: Each new intervention creates pressure for an answer .
+### sentence_id 23: Each new intervention creates pressure for an answer , and before long both parties can find themselves participating in a story
 (TOP
   (S
-    (NP (DT Each) (JJ new) (NN intervention))
-    (VP
-      (VBZ creates)
-      (NP (NN pressure))
-      (PP (IN for) (NP (DT an) (NN answer))))
-    (. .)))
+    (S
+      (NP (DT Each) (JJ new) (NN intervention))
+      (VP
+        (VBZ creates)
+        (NP (NN pressure))
+        (PP (IN for) (NP (DT an) (NN answer)))))
+    (, ,)
+    (CC and)
+    (S
+      (ADVP (IN before) (RB long))
+      (NP (DT both) (NNS parties))
+      (VP
+        (MD can)
+        (VP
+          (VB find)
+          (NP (NP (PRP themselves)) (NN participating))
+          (PP (IN in) (NP (DT a) (NN story))))))))
 
 ### sentence_id 24: That is why so much work in these situations happens away from public view .
 (TOP
@@ -482,32 +611,89 @@
           (NP (PRP$ his) (NN account)))))
     (. .)))
 
-### sentence_id 28: Objections followed from some of the venues scheduled to host later dates .
+### sentence_id 28: Objections followed from some of the venues scheduled to host later dates , and Sheeran said he tried to broker a solution before the promoter ultimately removed Macklemore from the remaining shows .
 (TOP
   (S
-    (NP (NN Objections))
-    (VP
-      (VBD followed)
-      (SBAR
-        (IN from)
-        (S
-          (NP (NP (DT some)) (PP (IN of) (NP (DT the) (NN venues))))
-          (VP
-            (VBN scheduled)
-            (PP (TO to) (NP (NN host) (JJ later) (NN dates)))))))
+    (S
+      (NP (NN Objections))
+      (VP
+        (VBD followed)
+        (SBAR
+          (IN from)
+          (S
+            (NP
+              (NP (DT some))
+              (PP (IN of) (NP (DT the) (NN venues))))
+            (VP
+              (VBN scheduled)
+              (PP (TO to) (NP (NN host) (JJ later) (NN dates))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NN Sheeran))
+      (VP
+        (VBD said)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP
+              (VBD tried)
+              (PP (TO to) (NP (NN broker)))
+              (SBAR
+                (S
+                  (NP
+                    (NP (DT a) (NN solution))
+                    (PP
+                      (IN before)
+                      (NP
+                        (NP
+                          (NP (DT the) (NN promoter))
+                          (ADJP (RB ultimately) (VBN removed))
+                          (NN Macklemore))
+                        (PP (IN from) (NP (DT the) (VBG remaining))))))
+                  (VP (VBZ shows)))))))))
     (. .)))
 
-### sentence_id 29: Preparation is necessary , particularly on an issue this sensitive .
+### sentence_id 29: Preparation is necessary , particularly on an issue this sensitive , but if it looks overly rehearsed it can create distance at the moment you most need people to hear you as a person .
 (TOP
-  (S
-    (NP (NN Preparation))
+  (SINV
+    (S (NP (NN Preparation)) (VP (VBZ is) (ADJP (JJ necessary))))
+    (, ,)
     (VP
-      (VBZ is)
+      (ADVP
+        (RB particularly)
+        (PP
+          (PP
+            (IN on)
+            (NP
+              (NP (DT an) (NN issue))
+              (NP (DT this) (JJ sensitive))))
+          (, ,)
+          (CC but)
+          (PP (IN if) (NP (PRP it)))))
+      (VBZ looks)
       (NP
-        (NP (JJ necessary))
-        (, ,)
-        (ADVP (RB particularly) (PP (IN on) (NP (DT an) (NN issue))))
-        (NP (DT this) (JJ sensitive))))
+        (NP (NN overly) (NN rehearsed))
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD can) (VP (VB create) (NP (NN distance)))))))
+      (PP (IN at) (NP (DT the) (NN moment))))
+    (NP
+      (NP (PRP you))
+      (SBAR
+        (S
+          (NP (JJS most))
+          (VP
+            (VBP need)
+            (NP (NNS people))
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB hear)
+                  (NP (PRP you))
+                  (PP (IN as) (NP (DT a) (NN person))))))))))
     (. .)))
 
 ### sentence_id 30: You can not write your way out of every crisis in one afternoon .
@@ -524,38 +710,94 @@
         (PP (IN in) (NP (CD one) (NN afternoon)))))
     (. .)))
 
-### sentence_id 31: Advisers do not need to become foreign policy experts .
+### sentence_id 31: Advisers do not need to become foreign policy experts , but they do need enough understanding to recognise when an apparently straightforward commercial decision sits inside a much larger political and cultural argument .
 (TOP
   (S
-    (NP (NN Advisers))
-    (VP
-      (VB do)
-      (ADVP (RB not))
+    (S
+      (NP (NN Advisers))
       (VP
-        (VBP need)
-        (S
-          (VP
-            (TO to)
+        (VB do)
+        (ADVP (RB not))
+        (VP
+          (VBP need)
+          (S
             (VP
-              (VB become)
-              (NP (JJ foreign) (NN policy) (NNS experts)))))))
+              (TO to)
+              (VP
+                (VB become)
+                (NP (JJ foreign) (NN policy) (NNS experts))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP
+        (VBP do)
+        (VP
+          (VBP need)
+          (ADVP (RB enough))
+          (NP (NN understanding))
+          (PP (TO to) (NP (NN recognise)))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP
+                (DT an)
+                (ADJP (RB apparently))
+                (NN straightforward)
+                (NN commercial)
+                (NN decision)
+                (NN sits)
+                (NN inside))
+              (NP
+                (DT a)
+                (UCP
+                  (ADJP (ADVP (RB much) (JJR larger)) (JJ political))
+                  (CC and)
+                  (NP (NN cultural)))
+                (NN argument)))))))
     (. .)))
 
-### sentence_id 32: Events are still moving , and other people are still speaking publicly .
+### sentence_id 32: Events are still moving , other people including fellow music celebrities are still speaking and something said today may need to survive developments you can not predict tomorrow .
 (TOP
   (S
     (S (NP (NN Events)) (VP (VBP are) (RB still) (VP (VBG moving))))
     (, ,)
+    (S
+      (NP
+        (NP (JJ other) (NNS people))
+        (PP
+          (VBG including)
+          (NP (JJ fellow) (NN music) (NN celebrities))))
+      (VP (VBP are) (RB still) (VP (VBG speaking))))
     (CC and)
     (S
-      (NP (JJ other) (NNS people))
+      (NP (NN something))
       (VP
-        (VBP are)
-        (RB still)
-        (VP (VBG speaking) (ADVP (RB publicly)))))
+        (VBD said)
+        (SBAR
+          (S
+            (NP (NN today))
+            (VP
+              (MD may)
+              (VP
+                (VBP need)
+                (S
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB survive)
+                      (NP
+                        (NP (NNS developments))
+                        (SBAR
+                          (S
+                            (NP (PRP you))
+                            (VP
+                              (MD can)
+                              (RB not)
+                              (VP (VB predict) (NP (NN tomorrow))))))))))))))))
     (. .)))
 
-### sentence_id 33: Iranian Foreign Minister Abbas Araghchi says his country has proposed a deal that would reopen the Strait of Hormuz within a week .
+### sentence_id 33: Iranian Foreign Minister Abbas Araghchi says his country has proposed a deal to the US that would see the Strait of Hormuz reopened within a week .
 (TOP
   (S
     (NP
@@ -574,79 +816,115 @@
             (VP
               (VBN proposed)
               (NP (DT a) (NN deal))
+              (PP (TO to) (NP (DT the) (NNP US)))
               (PP
                 (IN that)
                 (S
                   (VP
                     (MD would)
                     (VP
-                      (VB reopen)
+                      (VB see)
                       (NP (DT the) (NNP Strait))
-                      (PP (IN of) (NP (NN Hormuz)))))))
-              (PP (IN within) (NP (DT a) (NN week))))))))
-    (. .)))
+                      (SBAR
+                        (IN of)
+                        (S
+                          (NP (NN Hormuz))
+                          (VP
+                            (VBD reopened)
+                            (PP (IN within) (NP (DT a) (NN week))))
+                          (. .))))))))))))))
 
-### sentence_id 34: The United States and Israel launched air strikes on Iran in February .
+### sentence_id 34: The US and Israel launched air strikes on Iran on 28 February .
 (TOP
   (S
-    (NP (DT The) (NNP United) (NNPS States) (CC and) (NNP Israel))
+    (NP (DT The) (NNP US) (CC and) (NNP Israel))
     (VP
       (VBD launched)
       (NP (NN air) (NN strikes))
       (PP (IN on) (NP (NN Iran)))
-      (PP (IN in) (NP (NNP February))))
+      (PP (IN on) (NP (NP (CD 28)) (NNP February))))
     (. .)))
 
-### sentence_id 35: Iran responded by attacking Israel and American bases in the Gulf .
+### sentence_id 35: Iran responded by attacking Israel and US bases in the Gulf and Arab Gulf allies of the US - as well as blocking the Strait of Hormuz .
 (TOP
   (S
     (NP (NN Iran))
     (VP
       (VBD responded)
-      (PP
+      (SBAR
         (IN by)
         (S
-          (VP
-            (VBG attacking)
-            (NP (NNP Israel) (CC and) (NNP American) (NNS bases)))))
-      (PP (IN in) (NP (DT the) (NNP Gulf))))
-    (. .)))
-
-### sentence_id 36: A large share of the world 's oil and liquefied natural gas used to pass through the strait before the war .
-(TOP
-  (S
-    (NP
-      (NP (DT A) (JJ large) (NN share))
-      (PP
-        (IN of)
-        (NP
+          (S
+            (VP
+              (VBG attacking)
+              (NP (NNP Israel) (CC and) (NNP US) (NNS bases))
+              (PP (IN in) (NP (DT the) (NNP Gulf)))))
+          (CC and)
+          (S
+            (VP
+              (NN Arab)
+              (NP (NNP Gulf) (NNS allies))
+              (PP (IN of) (NP (DT the) (NNP US))))))))
+    (: -)
+    (FRAG
+      (IN as)
+      (ADVP
+        (RB well)
+        (PP
+          (IN as)
           (NP
-            (NP (DT the) (NN world) (POS 's))
-            (NN oil)
-            (CC and)
-            (NN liquefied))
-          (JJ natural)
-          (NN gas))))
-    (VP
-      (VBN used)
-      (S
-        (VP
-          (TO to)
-          (VP
-            (VB pass)
-            (PRT (RP through))
-            (NP (DT the) (NN strait))
-            (PP (IN before) (NP (DT the) (NN war)))))))
+            (NP (NN blocking))
+            (NP
+              (NP (DT the) (NNP Strait))
+              (PP (IN of) (NP (NN Hormuz))))))))
     (. .)))
 
-### sentence_id 37: The conflict has increased pressure on Trump to find a way of ending the crisis .
+### sentence_id 36: Some 20 % of the world 's oil and liquefied natural gas used to pass through the strait before the war and its closure has caused wild fluctuations of energy prices .
 (TOP
   (S
-    (NP (DT The))
-    (VP
-      (VBP conflict)
+    (S
+      (NP
+        (DT Some)
+        (ADJP
+          (ADJP (CD 20) (NN %))
+          (PP
+            (IN of)
+            (NP
+              (NP (DT the) (NN world) (POS 's))
+              (NN oil)
+              (CC and)
+              (NN liquefied))))
+        (JJ natural)
+        (NN gas))
+      (VP
+        (VBN used)
+        (S
+          (VP
+            (TO to)
+            (VP
+              (VB pass)
+              (PRT (RP through))
+              (NP (DT the) (NN strait))
+              (PP (IN before) (NP (DT the) (NN war))))))))
+    (CC and)
+    (S
+      (NP (PRP$ its) (NN closure))
       (VP
         (VBZ has)
+        (VP
+          (VBN caused)
+          (NP (JJ wild) (NNS fluctuations))
+          (PP (IN of) (NP (NN energy) (NNS prices))))))
+    (. .)))
+
+### sentence_id 37: It has also increased pressure on Trump to find a way of ending the conflict - particularly as the US heads to Congressional elections in November .
+(TOP
+  (S
+    (S
+      (NP (PRP It))
+      (VP
+        (VBZ has)
+        (RB also)
         (VP
           (VBN increased)
           (NP (NN pressure))
@@ -659,26 +937,78 @@
                 (NP (DT a) (NN way))
                 (PP
                   (IN of)
-                  (S (VP (VBG ending) (NP (DT the) (NN crisis)))))))))))
+                  (S
+                    (VP
+                      (VBG ending)
+                      (SBAR (S (NP (DT the)) (VP (VBP conflict)))))))))))))
+    (: -)
+    (S
+      (ADVP (RB particularly) (RB as))
+      (NP (DT the) (NNP US))
+      (VP
+        (VBZ heads)
+        (PP
+          (TO to)
+          (NP
+            (NP (NN Congressional) (NNS elections))
+            (PP (IN in) (NP (NNP November)))))))
     (. .)))
 
-### sentence_id 38: The memorandum of understanding between the two countries was signed in June .
+### sentence_id 38: Araghchi told reporters at the UN in New York that this could be done `` if the necessary conditions are met '' and said these were contained within the memorandum of understanding ( MOU ) signed in June .
 (TOP
   (S
-    (NP
-      (NP (DT The) (NN memorandum))
-      (PP
-        (IN of)
+    (NP (NN Araghchi))
+    (VP
+      (VP
+        (VBD told)
         (NP
-          (NP (NN understanding))
-          (PP (IN between) (NP (DT the) (CD two) (NNS countries))))))
-    (VP (VBD was) (VP (VBN signed) (PP (IN in) (NP (NNP June)))))
+          (NP (NNS reporters))
+          (PP
+            (IN at)
+            (NP
+              (NP (DT the) (NN UN))
+              (PP (IN in) (NP (NNP New) (NNP York)))))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (NP (DT this))
+              (VP (MD could) (VP (VB be) (VP (VBN done)))))))
+        (`` ``)
+        (PP
+          (IN if)
+          (NP
+            (NP (DT the) (JJ necessary) (NNS conditions))
+            (VP (VBP are) (VP (VBN met)))))
+        ('' ''))
+      (CC and)
+      (VP
+        (VBD said)
+        (SBAR
+          (S
+            (NP (DT these))
+            (VP
+              (VBD were)
+              (VP
+                (VBD contained)
+                (SBAR
+                  (IN within)
+                  (S
+                    (NP
+                      (NP (DT the) (NN memorandum))
+                      (PP
+                        (IN of)
+                        (NP
+                          (NN understanding)
+                          (NN ()
+                          (NN MOU)
+                          (NN )))))
+                    (VP (VBD signed) (PP (IN in) (NP (NNP June))))))))))))
     (. .)))
 
-### sentence_id 39: The agreement said Iran would never have a nuclear weapon .
+### sentence_id 39: The 14-point agreement said Iran would never have a nuclear weapon .
 (TOP
   (S
-    (NP (DT The) (NN agreement))
+    (NP (DT The) (NN 14-point) (NN agreement))
     (VP
       (VBD said)
       (SBAR
@@ -690,51 +1020,54 @@
             (VP (VB have) (NP (DT a) (JJ nuclear) (NN weapon)))))))
     (. .)))
 
-### sentence_id 40: Iran has attacked vessels that it says tried to cross the Strait of Hormuz without authorisation .
+### sentence_id 40: Iran has attacked vessels it says have attempted to cross the Strait of Hormuz without authorisation .
 (TOP
   (S
     (NP (NN Iran))
     (VP
       (VBZ has)
-      (NP (NN attacked) (NN vessels))
-      (SBAR
-        (WHNP (WDT that))
-        (S
-          (NP (PRP it))
-          (VP
-            (VBZ says)
+      (NP
+        (NP (NN attacked) (NN vessels))
+        (SBAR
+          (S
+            (NP (PRP it))
             (VP
-              (VBD tried)
-              (PP (TO to) (NP (NN cross)))
-              (NP
-                (NP (DT the) (NNP Strait))
-                (PP
-                  (IN of)
-                  (NP
-                    (NP (NN Hormuz))
-                    (PP (IN without) (NP (NN authorisation))))))))
-          (. .))))))
-
-### sentence_id 41: The United States has attacked Iranian sites in the strait and tankers off the coast .
-(TOP
-  (S
-    (NP (DT The) (NNP United) (NNPS States))
-    (VP
-      (VBZ has)
-      (ADVP
-        (NP
-          (NP (NN attacked) (NN Iranian) (NNS sites))
-          (PP
-            (IN in)
-            (NP (DT the) (NN strait) (CC and) (NN tankers))))
-        (RB off))
-      (NP (DT the) (NN coast)))
+              (VBZ says)
+              (VP
+                (VB have)
+                (VP (VBN attempted) (PP (TO to) (NP (NN cross)))))))))
+      (NP (DT the) (NNP Strait))
+      (PP (IN of) (NP (NN Hormuz)))
+      (PP (IN without) (NP (NN authorisation))))
     (. .)))
 
-### sentence_id 42: The President also said Iran would now allow United Nations nuclear inspectors into the country .
+### sentence_id 41: The US has attacked Iranian sites in the strait - as well as Iranian tankers off the country 's coast .
 (TOP
   (S
-    (NP (DT The) (NNP President))
+    (NP (DT The) (NNP US))
+    (VP
+      (VBZ has)
+      (NP
+        (NP (NN attacked) (NN Iranian) (NNS sites))
+        (PP (IN in) (NP (DT the) (NN strait))))
+      (: -)
+      (PP
+        (IN as)
+        (NP
+          (NP (RB well))
+          (PP
+            (IN as)
+            (NP
+              (NP
+                (NP (NN Iranian) (NN tankers))
+                (PP (RB off) (NP (DT the) (NN country) (POS 's))))
+              (NN coast))))))
+    (. .)))
+
+### sentence_id 42: Pezeshkian also said Iran would now allow UN nuclear inspectors into the country .
+(TOP
+  (S
+    (NP (NN Pezeshkian))
     (ADVP (RB also))
     (VP
       (VBD said)
@@ -746,44 +1079,92 @@
             (RB now)
             (VP
               (VB allow)
-              (NP
-                (NP (NNP United) (NNPS Nations))
-                (JJ nuclear)
-                (NN inspectors))
+              (NP (NN UN) (JJ nuclear) (NN inspectors))
               (PP (IN into) (NP (DT the) (NN country))))))))
     (. .)))
 
-### sentence_id 43: Shipping data shows a recent average of about eighteen transits per day .
+### sentence_id 43: Shipping data shows a recent 10-day average of about 18 transits per day , with daily numbers dropping as low as nine vessels on certain days , according to Kpler , a commodities data and analytics firm cited by Reuters .
 (TOP
   (S
     (NP (NN Shipping) (NNS data))
     (VP
       (VBZ shows)
-      (NP (DT a) (JJ recent) (NN average))
-      (PP (IN of) (IN about) (NP (NN eighteen) (NN transits)))
-      (PP (IN per) (NP (NN day))))
-    (. .)))
+      (NP (DT a) (JJ recent) (JJ 10-day) (NN average))
+      (PP (IN of) (NP (QP (IN about) (CD 18)) (NN transits)))
+      (PP (IN per) (NP (NN day)))
+      (, ,)
+      (PP
+        (IN with)
+        (NP
+          (NP (NP (JJ daily) (NNS numbers)) (NN dropping))
+          (PP
+            (IN as)
+            (NP
+              (NP (QP (JJ low) (IN as) (CD nine)) (NN vessels))
+              (PP (IN on) (NP (JJ certain) (NNS days)))))))
+      (, ,)
+      (S
+        (VP
+          (VBG according)
+          (S
+            (PP (TO to) (NP (NN Kpler)))
+            (, ,)
+            (NP
+              (NP (DT a) (NNS commodities))
+              (NNS data)
+              (CC and)
+              (NN analytics)
+              (NN firm))
+            (VP (VBN cited) (PP (IN by) (NP (NNP Reuters))))
+            (. .)))))))
 
-### sentence_id 44: The group seized strategically important stretches of the Red Sea coast in a rapid offensive this month .
+### sentence_id 44: The group seized large strategically important stretches of the Red Sea coast in a rapid offensive this month , including the port of Mokha , which overlooks the Bab al-Mandab Strait , another chokepoint for global shipping .
 (TOP
   (S
     (NP (DT The) (NN group))
     (VP
       (VBD seized)
       (NP
-        (NP (NN strategically) (JJ important) (NN stretches))
-        (PP
-          (IN of)
-          (NP
-            (NP (DT the) (NNP Red) (NNP Sea) (NN coast))
-            (PP (IN in) (NP (DT a) (JJ rapid) (NN offensive))))))
-      (NP (DT this) (NN month)))
+        (NP (JJ large) (NN strategically))
+        (JJ important)
+        (NN stretches))
+      (PP (IN of) (NP (DT the) (NNP Red) (NNP Sea) (NN coast)))
+      (PP (IN in) (NP (DT a) (JJ rapid) (NN offensive)))
+      (NP (DT this) (NN month))
+      (, ,)
+      (S
+        (VP
+          (VBG including)
+          (NP (DT the) (NN port))
+          (PP
+            (IN of)
+            (NP
+              (NP (NN Mokha))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP
+                    (NN overlooks)
+                    (NP
+                      (NP
+                        (DT the)
+                        (NN Bab)
+                        (NN al-Mandab)
+                        (NNP Strait))
+                      (, ,)
+                      (NP (DT another) (NN chokepoint)))
+                    (PP (IN for) (NP (JJ global) (NN shipping)))))))))))
     (. .)))
 
-### sentence_id 45: The Saudi-led coalition said it had intercepted two ballistic missiles and drones launched by the Houthis .
+### sentence_id 45: On Saturday , the Saudi-led coalition in Yemen said it had intercepted two ballistic missiles and drones launched by the Houthis towards Saudi Arabia .
 (TOP
   (S
-    (NP (DT The) (NN Saudi-led) (NN coalition))
+    (PP (IN On) (NP (NNP Saturday)))
+    (, ,)
+    (NP
+      (NP (DT the) (NN Saudi-led) (NN coalition))
+      (PP (IN in) (NP (NN Yemen))))
     (VP
       (VBD said)
       (SBAR
@@ -802,34 +1183,65 @@
                   (NN drones))
                 (VP
                   (VBN launched)
-                  (PP (IN by) (NP (DT the) (NN Houthis))))))))))
+                  (PP
+                    (IN by)
+                    (NP
+                      (DT the)
+                      (NN Houthis)
+                      (NN towards)
+                      (NNP Saudi)
+                      (NNP Arabia))))))))))
     (. .)))
 
-### sentence_id 46: Earlier this week , President Donald Trump threatened the Islamic Republic .
+### sentence_id 46: Earlier this week , US President Donald Trump threatened to `` annihilate the Islamic Republic '' .
 (TOP
   (S
     (NP (JJR Earlier) (DT this) (NN week))
     (, ,)
-    (NP (NNP President) (NNP Donald) (NNP Trump))
-    (VP (VBN threatened) (NP (DT the) (NNP Islamic) (NN Republic)))
-    (. .)))
-
-### sentence_id 47: The closure has caused wild fluctuations of energy prices .
-(TOP
-  (S
-    (NP (DT The) (NN closure))
+    (NP (NNP US) (NNP President) (NNP Donald) (NNP Trump))
     (VP
-      (VBZ has)
-      (VP
-        (VBN caused)
-        (NP (JJ wild) (NNS fluctuations))
-        (PP (IN of) (NP (NN energy) (NNS prices)))))
+      (VBN threatened)
+      (PP
+        (TO to)
+        (NP
+          (`` ``)
+          (NP
+            (NP (NN annihilate))
+            (NP (DT the) (NNP Islamic) (NN Republic)))
+          ('' ''))))
     (. .)))
 
-### sentence_id 48: The agreement said Iran would make arrangements for the safe passage of commercial vessels .
+### sentence_id 47: Meanwhile , police will strictly enforce regulations governing bus priority lanes in Colombo and surrounding areas from September 29 .
 (TOP
   (S
-    (NP (DT The) (NN agreement))
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP (NNS police))
+    (VP
+      (MD will)
+      (RB strictly)
+      (VP
+        (VP
+          (VB enforce)
+          (NP
+            (NP (NNS regulations))
+            (NN governing)
+            (NN bus)
+            (NN priority)
+            (NN lanes))
+          (PP (IN in) (NP (NN Colombo))))
+        (CC and)
+        (VP
+          (VBG surrounding)
+          (NP (NNS areas))
+          (PP (IN from) (NP (NNP September) (CD 29))))))
+    (. .)))
+
+### sentence_id 48: It also said Iran would `` make arrangements using its best efforts for the safe passage of commercial vessels '' through the strait and hold talks with Oman over future shipping arrangements .
+(TOP
+  (S
+    (NP (PRP It))
+    (ADVP (RB also))
     (VP
       (VBD said)
       (SBAR
@@ -837,11 +1249,32 @@
           (NP (NN Iran))
           (VP
             (MD would)
+            (`` ``)
             (VP
-              (VB make)
-              (NP (NNS arrangements))
-              (PP (IN for) (NP (DT the) (JJ safe) (NN passage)))
-              (PP (IN of) (NP (JJ commercial) (NN vessels))))))))
+              (VP
+                (VB make)
+                (NP (NNS arrangements))
+                (S
+                  (VP
+                    (VBG using)
+                    (NP (PRP$ its) (JJS best) (NNS efforts))
+                    (PP
+                      (IN for)
+                      (NP
+                        (NP (DT the) (JJ safe) (NN passage))
+                        (PP
+                          (IN of)
+                          (NP (JJ commercial) (NN vessels)))
+                        ('' '')
+                        (PP (IN through) (NP (DT the) (NN strait))))))))
+              (CC and)
+              (VP
+                (VB hold)
+                (NP (NNS talks))
+                (PP (IN with) (NP (NN Oman)))
+                (PP
+                  (IN over)
+                  (NP (JJ future) (NN shipping) (NNS arrangements)))))))))
     (. .)))
 
 ### sentence_id 49: But it fell apart a short time later when both sides resumed strikes .
@@ -858,65 +1291,81 @@
         (S (NP (DT both) (NNS sides)) (NP (NN resumed) (NN strikes)))))
     (. .)))
 
-### sentence_id 50: The United States has also maintained a blockade of Iranian ports .
+### sentence_id 50: It has also maintained a blockade of Iranian ports , causing huge disruption to the Iranian economy .
 (TOP
   (S
-    (NP (DT The) (NNP United) (NNPS States))
+    (NP (PRP It))
     (VP
       (VBZ has)
       (RB also)
       (VP
         (VBD maintained)
         (NP (DT a) (NN blockade))
-        (PP (IN of) (NP (NN Iranian) (NNS ports)))))
+        (PP (IN of) (NP (NN Iranian) (NNS ports)))
+        (, ,)
+        (S
+          (VP
+            (VBG causing)
+            (NP (JJ huge) (NN disruption))
+            (PP (TO to) (NP (DT the) (NN Iranian) (NN economy)))))))
     (. .)))
 
-### sentence_id 51: Trump has claimed the country has been successful in getting oil out through the strait .
+### sentence_id 51: Trump since has claimed the US has been successful in getting oil out through the Strait of Hormuz .
 (TOP
   (S
-    (NP (NNP Trump))
+    (NP
+      (NP (NNP Trump))
+      (PP
+        (IN since)
+        (S (VP (VBZ has) (VP (VBD claimed) (NP (DT the) (NNP US)))))))
     (VP
       (VBZ has)
       (VP
-        (VBD claimed)
-        (SBAR
-          (S
-            (NP (DT the) (NN country))
-            (VP
-              (VBZ has)
-              (VP
-                (VBN been)
-                (S (ADJP (JJ successful)))
-                (PP (IN in) (NP (VBG getting) (NN oil)))
-                (PP (IN out) (IN through) (NP (DT the) (NN strait)))))))))
+        (VBN been)
+        (S
+          (ADJP
+            (JJ successful)
+            (PP (IN in) (NP (VBG getting) (NN oil)))))
+        (PP (IN out) (IN through) (NP (DT the) (NNP Strait)))
+        (PP (IN of) (NP (NN Hormuz)))))
     (. .)))
 
-### sentence_id 52: A United States official said positive discussions were taking place through mediators .
+### sentence_id 52: Asked about the Iranian offer , a US official told the BBC positive discussions were taking place through mediators , including about nuclear issues .
 (TOP
   (S
-    (NP (DT A) (NNP United) (NNPS States) (NN official))
+    (S
+      (VP
+        (VBD Asked)
+        (PP (IN about) (NP (DT the) (NN Iranian) (NN offer)))))
+    (, ,)
+    (NP (DT a) (NNP US) (NN official))
     (VP
-      (VBD said)
+      (VBD told)
       (SBAR
         (S
-          (NP (JJ positive) (NNS discussions))
+          (NP (NP (DT the) (NN BBC)) (JJ positive) (NNS discussions))
           (VP
             (VBD were)
+            (NP (VBG taking) (NN place))
+            (PP (IN through) (NP (NN mediators)))
+            (, ,)
             (S
               (VP
-                (VBG taking)
-                (NP (NN place))
-                (PP (IN through) (NP (NN mediators)))))))))
+                (VBG including)
+                (PP (IN about) (NP (JJ nuclear) (NNS issues)))))))))
     (. .)))
 
-### sentence_id 53: During his speech at the General Assembly , Trump said he believed a deal would come after the elections .
+### sentence_id 53: During his speech at the UN General Assembly this week , Trump said he believed an Iran deal , which has so far eluded him , would come right after November 's elections .
 (TOP
   (S
     (PP
       (IN During)
       (NP
         (NP (PRP$ his) (NN speech))
-        (PP (IN at) (NP (DT the) (NNP General) (NN Assembly)))))
+        (PP
+          (IN at)
+          (NP (NP (DT the) (NN UN)) (NNP General) (NN Assembly)))))
+    (NP (DT this) (NN week))
     (, ,)
     (NP (NNP Trump))
     (VP
@@ -928,12 +1377,27 @@
             (VBD believed)
             (SBAR
               (S
-                (NP (DT a) (NN deal))
+                (NP
+                  (NP (DT an) (NN Iran) (NN deal))
+                  (, ,)
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP
+                        (VBZ has)
+                        (ADVP (RB so) (RB far))
+                        (VP (NN eluded) (NP (PRP him))))))
+                  (, ,))
                 (VP
                   (MD would)
                   (VP
                     (VB come)
-                    (PP (IN after) (NP (DT the) (NNS elections)))))))))))
+                    (NP (NN right))
+                    (PP
+                      (IN after)
+                      (NP
+                        (NP (NNP November) (POS 's))
+                        (NNS elections)))))))))))
     (. .)))
 
 ### sentence_id 54: This race is spilling into factories , warehouses , ports and wider physical infrastructures .
@@ -959,70 +1423,114 @@
             (NN infrastructures)))))
     (. .)))
 
-### sentence_id 55: Washington 's latest move restricts foreign-produced advanced robots .
+### sentence_id 55: This reflects the strategic dilemma : Washington can not win on its own if China still controls the overall industrial and manufacturing ecosystem .
 (TOP
   (S
-    (NP (NP (NNP Washington) (POS 's)) (JJS latest) (NN move))
-    (VP
-      (VBZ restricts)
-      (SBAR
-        (S
-          (NP (NN foreign-produced))
-          (VP (VBD advanced) (NP (NN robots))))))
-    (. .)))
-
-### sentence_id 56: The United States has learned an uncomfortable lesson .
-(TOP
-  (S
-    (NP (DT The) (NNP United) (NNPS States))
-    (VP
-      (VBZ has)
-      (VP (VBD learned) (NP (DT an) (JJ uncomfortable) (NN lesson))))
-    (. .)))
-
-### sentence_id 57: Once foreign technology has deeply integrated into national infrastructure , removing it becomes expensive and difficult .
-(TOP
-  (S
-    (NP (ADJP (RB Once) (JJ foreign)) (NN technology))
-    (VP
-      (VBZ has)
-      (RB deeply)
+    (S
+      (NP (DT This))
+      (VP (VBZ reflects) (NP (DT the) (JJ strategic) (NN dilemma))))
+    (: :)
+    (S
+      (NP (NNP Washington))
       (VP
-        (VBN integrated)
-        (PP (IN into) (NP (JJ national) (NN infrastructure)))
-        (, ,)
-        (S
-          (VP
-            (VBG removing)
-            (SBAR
-              (S
-                (NP (PRP it))
-                (VP
-                  (VBZ becomes)
-                  (ADJP (JJ expensive) (CC and) (JJ difficult)))))))))
+        (MD can)
+        (RB not)
+        (VP
+          (VB win)
+          (PP (IN on) (NP (PRP$ its) (JJ own)))
+          (SBAR
+            (IN if)
+            (S
+              (NP (NNP China))
+              (ADVP (RB still))
+              (VP
+                (NNS controls)
+                (NP
+                  (DT the)
+                  (JJ overall)
+                  (ADJP
+                    (ADJP (JJ industrial))
+                    (CC and)
+                    (ADJP (VBG manufacturing)))
+                  (NN ecosystem))))))))
     (. .)))
 
-### sentence_id 58: A modern autonomous robot is fundamentally different from a conventional imported appliance of the past .
+### sentence_id 56: The United States has learned an uncomfortable lesson : dependency is easiest to prevent before it becomes dependency .
 (TOP
   (S
-    (NP (DT A) (JJ modern) (NN autonomous) (NN robot))
-    (VP
-      (VBZ is)
-      (ADJP
-        (RB fundamentally)
-        (JJ different)
-        (PP
-          (IN from)
-          (NP
+    (S
+      (NP (DT The) (NNP United) (NNPS States))
+      (VP
+        (VBZ has)
+        (VP
+          (VBD learned)
+          (NP (DT an) (JJ uncomfortable) (NN lesson)))))
+    (: :)
+    (S
+      (NP (NN dependency))
+      (VP
+        (VBZ is)
+        (SBAR
+          (S
             (NP
-              (DT a)
-              (JJ conventional)
-              (VBN imported)
-              (NN appliance))
-            (PP (IN of) (NP (DT the) (JJ past)))))))
+              (NP (NN easiest))
+              (SBAR
+                (S
+                  (VP
+                    (TO to)
+                    (VP (VB prevent) (PP (IN before) (NP (PRP it))))))))
+            (VP (VBZ becomes) (NP (NN dependency)))))))
     (. .)))
 
-### sentence_id 59: In 2024 , China manufactured almost three hundred thousand industrial robots .
+### sentence_id 57: Once foreign technology has deeply integrated into national infrastructure , jettisoning it will be expensive and politically difficult .
+(TOP
+  (S
+    (S
+      (NP (ADJP (RB Once) (JJ foreign)) (NN technology))
+      (VP
+        (VBZ has)
+        (RB deeply)
+        (VP
+          (VBN integrated)
+          (PP (IN into) (NP (JJ national) (NN infrastructure))))))
+    (, ,)
+    (NP (NP (NN jettisoning)) (NP (PRP it)))
+    (VP
+      (MD will)
+      (VP
+        (VB be)
+        (ADJP
+          (ADJP (JJ expensive))
+          (CC and)
+          (ADJP (RB politically) (JJ difficult)))))
+    (. .)))
+
+### sentence_id 58: Stanford estimations reflect US private investment in AI at roughly US $ 285.9 billion in 2025 , exceeding many others .
+(flat fallback - not a full parse)
+(TOP
+  (NNP Stanford)
+  (NN estimations)
+  (VB reflect)
+  (NNP US)
+  (JJ private)
+  (NN investment)
+  (IN in)
+  (NN AI)
+  (IN at)
+  (RB roughly)
+  (NNP US)
+  ($ $)
+  (NN 285.9)
+  (CD billion)
+  (IN in)
+  (NN 2025)
+  (, ,)
+  (VBG exceeding)
+  (JJ many)
+  (NNS others)
+  (. .))
+
+### sentence_id 59: In 2024 , China manufactured almost 300,000 industrial robots , accounting for about 54 % of global installations .
 (TOP
   (S
     (PP (IN In) (NP (NN 2024)))
@@ -1032,60 +1540,89 @@
       (VBN manufactured)
       (ADVP
         (RB almost)
-        (NP
-          (NP (CD three) (CD hundred))
-          (CD thousand)
-          (JJ industrial)
-          (NN robots))))
+        (NP (CD 300,000) (JJ industrial) (NN robots)))
+      (, ,)
+      (S
+        (VP
+          (VBG accounting)
+          (PP (IN for) (NP (QP (IN about) (CD 54)) (NN %)))
+          (PP (IN of) (NP (JJ global) (NN installations))))))
     (. .)))
 
-### sentence_id 60: The United States installed only around thirty-four thousand industrial robots that same year .
+### sentence_id 60: The United States , by contrast , installed only around 34,000 industrial robots that same year .
 (TOP
   (S
     (NP (DT The) (NNP United) (NNPS States))
+    (, ,)
+    (PP (IN by) (NP (NN contrast)))
+    (, ,)
     (VP
       (VBN installed)
       (ADVP (RB only))
       (PP
         (IN around)
         (NP
-          (NP
-            (NP (NN thirty-four) (CD thousand))
-            (JJ industrial)
-            (NN robots))
+          (NP (NN 34,000) (JJ industrial) (NN robots))
           (NP (NP (WDT that)) (JJ same) (NN year)))))
     (. .)))
 
-### sentence_id 61: Every robot deployed provides useful experience and helps manufacturers improve components .
+### sentence_id 61: Every robot deployed provides useful experience and gives manufacturers opportunities to improve components , further reduce prices and strengthen supplier networks .
 (TOP
   (S
-    (NP (DT Every) (NN robot) (NN deployed))
-    (VP
-      (VP (VBZ provides) (NP (JJ useful) (NN experience)))
-      (CC and)
+    (S
+      (NP (DT Every) (NN robot) (NN deployed))
       (VP
-        (VBZ helps)
-        (SBAR
-          (S
-            (NP (NNS manufacturers))
-            (VP (VB improve) (NP (NN components)))))))
+        (VP (VBZ provides) (NP (JJ useful) (NN experience)))
+        (CC and)
+        (VP
+          (VBZ gives)
+          (NP
+            (NP (NNS manufacturers) (NNS opportunities))
+            (SBAR
+              (S (VP (TO to) (VP (VB improve) (NP (NN components))))))))))
+    (, ,)
+    (NP (JJ further))
+    (VP
+      (VB reduce)
+      (NP
+        (NNS prices)
+        (CC and)
+        (NN strengthen)
+        (NN supplier)
+        (NNS networks)))
     (. .)))
 
-### sentence_id 62: The United States still maintains the intelligence gap in artificial intelligence models .
+### sentence_id 62: The United States still maintains the intelligence and power gap in AI models and reasoning capacities , by far , compared to others .
 (TOP
   (S
-    (NP (DT The) (NNP United) (NNPS States))
-    (ADVP (RB still))
-    (VP
-      (NN maintains)
-      (NP
-        (NP (DT the) (NN intelligence) (NN gap))
-        (PP
-          (IN in)
-          (NP (NN artificial) (NN intelligence) (NNS models)))))
+    (NP
+      (NP (DT The) (NNP United) (NNPS States))
+      (PP
+        (RB still)
+        (S
+          (VP
+            (NN maintains)
+            (NP
+              (DT the)
+              (NN intelligence)
+              (CC and)
+              (NN power)
+              (NN gap))
+            (PP
+              (IN in)
+              (NP
+                (NN AI)
+                (NNS models)
+                (CC and)
+                (NN reasoning)
+                (NN capacities)))))))
+    (, ,)
+    (ADVP (IN by) (RB far))
+    (, ,)
+    (VP (VBN compared) (PP (TO to) (NP (NNS others))))
     (. .)))
 
-### sentence_id 63: American companies still maintain unmatched knowledge in many frontier systems .
+### sentence_id 63: American companies still maintain unmatched knowledge in many frontier AI systems , semiconductor design , cloud computing and private technological investment .
 (TOP
   (S
     (NP (NNP American) (NNS companies))
@@ -1093,37 +1630,78 @@
     (VP
       (VB maintain)
       (NP (NN unmatched) (NN knowledge))
-      (PP (IN in) (NP (JJ many) (NN frontier) (NNS systems))))
+      (PP
+        (IN in)
+        (NP
+          (NP (JJ many) (NN frontier))
+          (NX
+            (NX (NN AI) (NNS systems))
+            (, ,)
+            (NX (NN semiconductor) (NN design))
+            (, ,)
+            (NX (NN cloud) (NN computing))
+            (CC and)
+            (NX (JJ private) (NN technological) (NN investment))))))
     (. .)))
 
-### sentence_id 64: China currently has the advantage in the body of the ecosystem .
+### sentence_id 64: Washington retains major leverage in the brain of the emerging robotic economy ecosystem .
 (TOP
   (S
-    (NP (NNP China))
-    (ADVP (RB currently))
+    (NP (NNP Washington))
     (VP
-      (VBZ has)
-      (NP (DT the) (NN advantage))
-      (PP (IN in) (NP (DT the) (NN body)))
-      (PP (IN of) (NP (DT the) (NN ecosystem))))
+      (NN retains)
+      (NP
+        (NP (JJ major) (NN leverage))
+        (PP
+          (IN in)
+          (NP
+            (NP (DT the) (NN brain))
+            (PP
+              (IN of)
+              (NP
+                (DT the)
+                (VBG emerging)
+                (JJ robotic)
+                (NN economy)
+                (NN ecosystem)))))))
     (. .)))
 
-### sentence_id 65: The next phase of the race will involve the speed and volume of robots produced .
+### sentence_id 65: China 's greatest strength in the robotics competition is not always assumed to be in the race for the best AI models , but more in its capacity to manufacture at the highest scale and volume .
 (TOP
   (S
-    (NP (DT The) (JJ next))
+    (NP
+      (NP (NP (NNP China) (POS 's)) (JJS greatest) (NN strength))
+      (PP (IN in) (NP (DT the) (NN robotics) (NN competition))))
     (VP
-      (VB phase)
-      (SBAR
-        (IN of)
-        (S
-          (NP (DT the) (NN race))
-          (VP
-            (MD will)
+      (VBZ is)
+      (RB not)
+      (ADJP
+        (ADJP
+          (RB always)
+          (VBN assumed)
+          (S
             (VP
-              (VB involve)
-              (NP (DT the) (NN speed) (CC and) (NN volume))
-              (SBAR (IN of) (S (NP (NN robots)) (VP (VBN produced)))))))))
+              (TO to)
+              (VP
+                (VB be)
+                (PP (IN in) (NP (DT the) (NN race)))
+                (PP
+                  (IN for)
+                  (NP (DT the) (JJS best) (NN AI) (NNS models)))))))
+        (, ,)
+        (CC but)
+        (ADJP (JJR more) (PP (IN in) (NP (PRP$ its) (NN capacity)))))
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB manufacture)
+            (PP
+              (IN at)
+              (NP
+                (NP (DT the) (JJS highest) (NN scale))
+                (CC and)
+                (NP (NN volume))))))))
     (. .)))
 
 ### sentence_id 66: Beijing is pursuing an opposite strategy , wanting scale before the market fully matures .
@@ -1152,25 +1730,35 @@
       (S (NP (DT the) (NNS stakes)) (VP (VBD involved))))
     (. .)))
 
-### sentence_id 68: Dependency is easiest to prevent before it becomes dependency .
+### sentence_id 68: This has increasingly shaped American strategy toward semiconductors , drones , critical minerals and other strategic technologies ; now , robotics have joined the fray .
 (TOP
   (S
-    (NP (NN Dependency))
-    (VP
-      (VBZ is)
-      (SBAR
-        (S
-          (NP
-            (NP (NN easiest))
-            (SBAR
-              (S
-                (VP
-                  (TO to)
-                  (VP (VB prevent) (PP (IN before) (NP (PRP it))))))))
-          (VP (VBZ becomes) (NP (NN dependency))))))
+    (S
+      (NP (DT This))
+      (VP
+        (VBZ has)
+        (RB increasingly)
+        (NP
+          (NP (NP (NN shaped)) (NNP American) (NN strategy))
+          (PP
+            (IN toward)
+            (NP
+              (NP (NNS semiconductors))
+              (, ,)
+              (NP (NN drones))
+              (, ,)
+              (NP (JJ critical) (NN minerals))
+              (CC and)
+              (NP (JJ other) (JJ strategic) (NNS technologies)))))))
+    (: ;)
+    (S
+      (ADVP (RB now))
+      (, ,)
+      (NP (NN robotics))
+      (VP (VBP have) (VP (VBD joined) (NP (DT the) (NN fray)))))
     (. .)))
 
-### sentence_id 69: Scale can create its own technological advantage .
+### sentence_id 69: Scale can create its own technological advantage , giving greater leverage to China in this case .
 (TOP
   (S
     (NP (NN Scale))
@@ -1178,18 +1766,27 @@
       (MD can)
       (VP
         (VB create)
-        (NP (PRP$ its) (JJ own) (NN technological) (NN advantage))))
+        (NP (PRP$ its) (JJ own) (NN technological) (NN advantage))
+        (, ,)
+        (S
+          (VP
+            (VBG giving)
+            (NP
+              (NP (JJR greater) (NN leverage))
+              (PP (TO to) (NP (NNP China))))
+            (PP (IN in) (NP (DT this) (NN case)))))))
     (. .)))
 
-### sentence_id 70: The broader objective is to deny Chinese platforms the space to dominate American infrastructure .
+### sentence_id 70: The broader objective is two-pronged : deny Chinese platforms the space to dominate America 's robotic and AI infrastructure while building a competitive US-and-allied embodied and supported AI ecosystem of its own .
 (TOP
   (S
     (NP (DT The) (JJR broader) (NN objective))
     (VP
       (VBZ is)
-      (S
+      (NP
+        (NP (NN two-pronged))
+        (: :)
         (VP
-          (TO to)
           (VP
             (VB deny)
             (NP (JJ Chinese) (NNS platforms))
@@ -1197,39 +1794,70 @@
             (PP
               (TO to)
               (NP
-                (NP (NN dominate))
-                (NNP American)
-                (NN infrastructure)))))))
-    (. .)))
+                (NP
+                  (NP (NN dominate))
+                  (ADJP (NP (NNP America) (POS 's)) (JJ robotic)))
+                (CC and)
+                (NP (NN AI) (NN infrastructure))))
+            (PP
+              (IN while)
+              (S
+                (VP
+                  (VBG building)
+                  (NP
+                    (DT a)
+                    (JJ competitive)
+                    (NN US-and-allied)
+                    (NN embodied))))))
+          (CC and)
+          (VP
+            (VBN supported)
+            (NP (NN AI) (NN ecosystem))
+            (PP (IN of) (NP (PRP$ its) (JJ own)))))
+        (. .)))))
 
-### sentence_id 71: This race will be a key battleground in determining who leads the global order .
+### sentence_id 71: This AI race will be the key battleground in determining who wins the global order in the new century .
 (TOP
   (S
-    (NP (DT This) (NN race))
+    (NP (DT This) (NN AI) (NN race))
     (VP
       (MD will)
       (VP
         (VB be)
-        (NP (DT a) (JJ key) (NN battleground))
+        (NP (DT the) (JJ key) (NN battleground))
         (PP (IN in) (NP (NN determining)))
         (SBAR
           (WHNP (WP who))
-          (S (NP (NN leads)) (NP (DT the) (JJ global) (NN order))))))
+          (S
+            (VP
+              (VBZ wins)
+              (NP (DT the) (JJ global) (NN order))
+              (PP (IN in) (NP (DT the) (JJ new) (NN century))))))))
     (. .)))
 
-### sentence_id 72: A modern robot can keep and process information about its surroundings .
+### sentence_id 72: The fear is that these will give a strategic advantage to adversaries , just like a Trojan horse could .
 (TOP
   (S
-    (NP (DT A) (JJ modern) (NN robot))
+    (NP (DT The) (NN fear))
     (VP
-      (MD can)
+      (VBZ is)
+      (ADVP (IN that) (DT these))
       (VP
-        (VB keep)
-        (PP (CC and) (NP (NN process) (NN information)))
-        (PP (IN about) (NP (PRP$ its) (NN surroundings)))))
-    (. .)))
+        (MD will)
+        (VP
+          (VB give)
+          (NP (DT a) (JJ strategic) (NN advantage))
+          (PP (TO to) (NP (NN adversaries)))
+          (, ,)
+          (ADVP (RB just))
+          (VP
+            (VB like)
+            (S
+              (NP (DT a) (NNP Trojan) (NN horse))
+              (VP (MD could))
+              (. .))))))))
 
-### sentence_id 73: The concerns include surveillance , cyberattacks and the risk of remote compromise .
+### sentence_id 73: The concerns include surveillance , cyberattacks , supply-chain disruption and the risk of remote compromise .
 (TOP
   (S
     (NP (DT The) (NNS concerns))
@@ -1239,6 +1867,8 @@
         (NP (NN surveillance))
         (, ,)
         (NP (NN cyberattacks))
+        (, ,)
+        (NP (NN supply-chain) (NN disruption))
         (CC and)
         (NP (DT the) (NN risk)))
       (PP (IN of) (NP (NN remote) (NN compromise))))
@@ -1257,15 +1887,10 @@
       (ADVP (NP (NNP South)) (IN behind)))
     (. .)))
 
-### sentence_id 75: The infrastructure underpinning artificial intelligence remains deeply unequal .
+### sentence_id 75: The infrastructure underpinning AI remains deeply unequal .
 (TOP
   (S
-    (NP
-      (DT The)
-      (NN infrastructure)
-      (NN underpinning)
-      (NN artificial)
-      (NN intelligence))
+    (NP (DT The) (NN infrastructure) (NN underpinning) (NN AI))
     (VP (VBZ remains) (RB deeply) (NP (NN unequal)))
     (. .)))
 
@@ -1276,10 +1901,13 @@
     (VP (VBZ is) (ADJP (JJ visible) (PP (IN in) (NP (NN adoption)))))
     (. .)))
 
-### sentence_id 77: Demand is already substantial even where infrastructure and access lag behind .
+### sentence_id 77: Demand , in other words , is already substantial even where infrastructure and access lag behind .
 (TOP
   (S
     (NP (NN Demand))
+    (, ,)
+    (PP (IN in) (NP (JJ other) (NNS words)))
+    (, ,)
     (VP
       (VBZ is)
       (RB already)
@@ -1291,22 +1919,40 @@
           (ADVP (IN behind)))))
     (. .)))
 
-### sentence_id 78: The dominant commercial model relies heavily on capital , advanced chips and computing power .
+### sentence_id 78: The dominant U.S. commercial model , in his account , relies heavily on capital , advanced chips and computing power , which requires higher investment and returns .
 (TOP
   (S
-    (NP (DT The) (JJ dominant) (JJ commercial) (NN model))
-    (VP
-      (VBZ relies)
-      (ADVP (RB heavily))
-      (PP (IN on) (NP (NN capital)))
+    (NP
+      (NP
+        (DT The)
+        (JJ dominant)
+        (NNP U.S.)
+        (NN commercial)
+        (NN model))
       (, ,)
-      (S
-        (VP
-          (VBD advanced)
-          (NP (NNS chips) (CC and) (NN computing) (NN power)))))
+      (PP (IN in) (NP (PRP$ his) (NN account)))
+      (, ,)
+      (VP
+        (VBZ relies)
+        (ADVP (RB heavily))
+        (PP (IN on) (NP (NN capital))))
+      (, ,))
+    (VP
+      (VBD advanced)
+      (NP (NNS chips) (CC and) (NN computing) (NN power))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP
+            (VBZ requires)
+            (NP
+              (NP (JJR higher) (NN investment))
+              (CC and)
+              (NP (NNS returns)))))))
     (. .)))
 
-### sentence_id 79: A developer in Lagos , Sao Paulo or Jakarta can download an advanced model and adapt it to local needs .
+### sentence_id 79: A developer in Lagos , Sao Paulo or Jakarta can download an advanced model and adapt it to local needs without negotiating a conventional technology-transfer agreement .
 (TOP
   (S
     (NP (NP (DT A) (NN developer)) (PP (IN in) (NP (NN Lagos))))
@@ -1318,7 +1964,19 @@
         (NN download)
         (NP
           (NP (DT an) (JJ advanced) (NN model) (CC and) (NN adapt))
-          (NP (NP (PRP it)) (PP (TO to) (NP (JJ local) (NNS needs)))))))
+          (PP
+            (NP
+              (NP (PRP it))
+              (PP (TO to) (NP (JJ local) (NNS needs))))
+            (IN without)
+            (S
+              (VP
+                (VBG negotiating)
+                (NP
+                  (DT a)
+                  (JJ conventional)
+                  (NN technology-transfer)
+                  (NN agreement))))))))
     (. .)))
 
 ### sentence_id 80: Affordable access is only the first half of the argument .
@@ -1332,10 +1990,10 @@
       (PP (IN of) (NP (DT the) (NN argument))))
     (. .)))
 
-### sentence_id 81: Artificial intelligence is becoming an object of that contest .
+### sentence_id 81: AI is becoming an object of that contest .
 (TOP
   (S
-    (NP (NN Artificial) (NN intelligence))
+    (NP (NN AI))
     (VP
       (VBZ is)
       (S
@@ -1358,7 +2016,7 @@
     (VP (VBZ is) (ADJP (RB already) (JJ substantial)))
     (. .)))
 
-### sentence_id 83: For much of the postwar period , development ideas flowed from developed to developing economies .
+### sentence_id 83: For much of the postwar period , development ideas flowed largely from developed to developing economies .
 (TOP
   (S
     (PP
@@ -1367,28 +2025,24 @@
         (ADJP (JJ much) (PP (IN of) (NP (DT the) (NN postwar))))
         (NN period)))
     (, ,)
-    (NP (NN development) (NNS ideas))
-    (ADVP (NP (NN flowed)) (IN from))
+    (NP (NP (NN development) (NNS ideas)) (NN flowed))
+    (ADVP (RB largely) (IN from))
     (VP
       (VBD developed)
       (S (VP (TO to) (VP (VBG developing) (NP (NNS economies))))))
     (. .)))
 
-### sentence_id 84: Access and co-operation were also on the agenda at the summit .
+### sentence_id 84: AI access and co-operation were also on the BRICS agenda .
 (TOP
   (S
-    (NP (NN Access) (CC and) (NN co-operation))
+    (NP (NN AI) (NN access) (CC and) (NN co-operation))
     (VP
       (VBD were)
       (ADVP (RB also))
-      (PP
-        (IN on)
-        (NP
-          (NP (DT the) (NN agenda))
-          (PP (IN at) (NP (DT the) (NN summit))))))
+      (PP (IN on) (NP (DT the) (NN BRICS) (NN agenda))))
     (. .)))
 
-### sentence_id 85: That gap between demand and capacity is central to the economist 's argument .
+### sentence_id 85: That gap between demand and capacity is central to Lin 's argument .
 (TOP
   (S
     (NP
@@ -1398,15 +2052,13 @@
       (VBZ is)
       (ADJP
         (JJ central)
-        (PP
-          (TO to)
-          (NP (NP (DT the) (NN economist) (POS 's)) (NN argument)))))
+        (PP (TO to) (NP (NP (NN Lin) (POS 's)) (NN argument)))))
     (. .)))
 
-### sentence_id 86: The second point is that latecomers face fewer legacy costs .
+### sentence_id 86: The second is that latecomers face fewer legacy costs .
 (TOP
   (S
-    (NP (DT The) (JJ second) (NN point))
+    (NP (DT The) (JJ second))
     (VP
       (VBZ is)
       (SBAR
@@ -1444,10 +2096,10 @@
           (NP (PRP$ its) (NN productive) (NN use)))))
     (. .)))
 
-### sentence_id 89: The initiatives are intended to give developing countries a greater role in shaping the technology .
+### sentence_id 89: The BRICS AI initiatives are intended to give developing countries a greater role in shaping how the technology is used and governed .
 (TOP
   (S
-    (NP (DT The) (NNS initiatives))
+    (NP (DT The) (NN BRICS) (NN AI) (NNS initiatives))
     (VP
       (VBP are)
       (VP
@@ -1458,16 +2110,27 @@
             (VP
               (VB give)
               (NP (VBG developing) (NNS countries))
-              (NP (DT a) (JJR greater) (NN role))
-              (PP
-                (IN in)
-                (S (VP (VBG shaping) (NP (DT the) (NN technology))))))))))
+              (NP
+                (NP
+                  (NP (DT a) (JJR greater) (NN role))
+                  (PP
+                    (IN in)
+                    (S
+                      (VP
+                        (VBG shaping)
+                        (SBAR
+                          (WHADVP (WRB how))
+                          (S
+                            (NP (DT the) (NN technology))
+                            (VP (VBZ is) (VP (VBN used)))))))))
+                (CC and)
+                (NP (NN governed))))))))
     (. .)))
 
-### sentence_id 90: He argues that learning should now run both ways .
+### sentence_id 90: Lin argues that learning should now run both ways .
 (TOP
   (S
-    (NP (PRP He))
+    (NP (NN Lin))
     (VP
       (VBZ argues)
       (SBAR
@@ -1480,32 +2143,62 @@
             (VP (VB run) (NP (DT both) (NNS ways)))))))
     (. .)))
 
-### sentence_id 91: Countries need local talent to transform the technology into local applications .
+### sentence_id 91: Countries need `` local talent to transform the technology into local applications , '' Lin added .
 (TOP
   (S
     (NP (NNS Countries))
     (VP
       (VBP need)
-      (NP
-        (NP (JJ local) (NN talent))
-        (PP (TO to) (NP (NN transform))))
-      (NP (DT the) (NN technology))
-      (PP (IN into) (NP (JJ local) (NNS applications))))
-    (. .)))
+      (S
+        (`` ``)
+        (S
+          (NP
+            (NP (JJ local) (NN talent))
+            (PP (TO to) (NP (NN transform))))
+          (NP
+            (NP (DT the) (NN technology))
+            (PP (IN into) (NP (JJ local) (NNS applications)))))
+        (, ,)
+        ('' '')
+        (NP (NN Lin))
+        (VP (VBD added))
+        (. .)))))
 
-### sentence_id 92: The economies accounted for a large share of global output in 2025 .
+### sentence_id 92: The 11 BRICS economies accounted for about 41 per cent of global GDP in purchasing-power-parity terms in 2025 , compared with 28 per cent for the G7 , according to IMF data .
 (TOP
   (S
-    (NP (DT The) (NNS economies))
+    (NP (DT The) (CD 11) (NN BRICS) (NNS economies))
     (VP
       (VBN accounted)
-      (PP (IN for) (NP (DT a) (JJ large) (NN share)))
       (PP
-        (IN of)
-        (NP (NP (JJ global) (NN output)) (PP (IN in) (NP (NN 2025))))))
+        (IN for)
+        (NP
+          (NP (QP (RB about) (CD 41)))
+          (PP
+            (IN per)
+            (NP
+              (NP (NN cent))
+              (PP
+                (IN of)
+                (NP
+                  (NP (JJ global) (NN GDP))
+                  (PP
+                    (IN in)
+                    (NP
+                      (NP (NN purchasing-power-parity) (NNS terms))
+                      (PP (IN in) (NP (NN 2025)))))))))
+          (, ,)
+          (VP
+            (VBN compared)
+            (PP (IN with) (NP (CD 28)))
+            (PP
+              (IN per)
+              (NP (NP (NN cent)) (PP (IN for) (NP (DT the) (NN G7))))))
+          (, ,)))
+      (PP (VBG according) (PP (TO to) (NP (NN IMF) (NNS data)))))
     (. .)))
 
-### sentence_id 93: Ukrainian President Volodymyr Zelensky said Trump will allow Ukraine to manufacture Patriot missiles .
+### sentence_id 93: Ukrainian President Volodymyr Zelensky said Friday that US President Donald Trump will allow Ukraine to manufacture Patriot missiles , a key demand as Kyiv tries to fend off relentless Russian aerial attacks .
 (TOP
   (S
     (NP
@@ -1517,7 +2210,11 @@
       (VBD said)
       (SBAR
         (S
-          (NP (NNP Trump))
+          (NP
+            (NP (NNP Friday))
+            (PP
+              (IN that)
+              (NP (NNP US) (NNP President) (NNP Donald) (NNP Trump))))
           (VP
             (MD will)
             (VP
@@ -1528,57 +2225,110 @@
                   (TO to)
                   (VP
                     (VB manufacture)
-                    (NP (NN Patriot) (NNS missiles))))))))))
+                    (NP
+                      (NP (NN Patriot) (NNS missiles))
+                      (, ,)
+                      (NP (DT a) (JJ key) (NN demand)))
+                    (PP (IN as) (NP (NN Kyiv) (NN tries)))
+                    (S
+                      (VP
+                        (TO to)
+                        (VP
+                          (VB fend)
+                          (PRT (RP off))
+                          (NP
+                            (NN relentless)
+                            (JJ Russian)
+                            (NN aerial)
+                            (NNS attacks)))))))))))))
     (. .)))
 
-### sentence_id 94: The two leaders met on the sidelines of the General Assembly in New York this week .
+### sentence_id 94: `` During our last meeting , President Trump emphasized that , yes , I have made the final decision : Ukraine will receive a license to manufacture Patriot missiles . ''
 (TOP
   (S
-    (NP (DT The) (CD two) (NNS leaders))
-    (VP
-      (VBD met)
-      (PP
-        (IN on)
-        (NP
-          (NP (DT the) (NNS sidelines))
-          (PP
-            (IN of)
-            (NP
-              (NP (DT the) (NNP General) (NN Assembly))
-              (PP (IN in) (NP (NNP New) (NNP York)))))))
-      (NP (DT this) (NN week)))
-    (. .)))
-
-### sentence_id 95: Trump suggested Ukraine would gain the right to make the missiles at a summit in July .
-(TOP
-  (S
-    (NP (NNP Trump))
-    (VP
-      (VBD suggested)
-      (SBAR
-        (S
-          (NP (NN Ukraine))
-          (VP
-            (MD would)
+    (S
+      (`` ``)
+      (PP (IN During) (NP (PRP$ our) (JJ last) (NN meeting)))
+      (, ,)
+      (NP (NNP President) (NNP Trump))
+      (VP
+        (VBD emphasized)
+        (SBAR
+          (IN that)
+          (, ,)
+          (S
+            (ADVP (RB yes))
+            (, ,)
+            (NP (PRP I))
             (VP
-              (NN gain)
-              (NP
-                (DT the)
-                (NN right)
-                (S
-                  (VP
-                    (TO to)
-                    (VP
-                      (VB make)
-                      (NP (DT the) (NNS missiles))
-                      (PP (IN at) (NP (DT a) (NN summit)))
-                      (PP (IN in) (NP (NNP July))))))))))))
-    (. .)))
+              (VBP have)
+              (VP (VBN made) (NP (DT the) (JJ final) (NN decision))))))))
+    (: :)
+    (S
+      (NP (NN Ukraine))
+      (VP
+        (MD will)
+        (VP
+          (VB receive)
+          (NP (DT a) (NN license))
+          (S
+            (VP
+              (TO to)
+              (VP (VB manufacture) (NP (NN Patriot) (NNS missiles))))))))
+    (. .)
+    ('' '')))
 
-### sentence_id 96: The network has approached the White House for comment .
+### sentence_id 95: Trump suggested Ukraine would gain the right to make Patriots on the side lines of the NATO summit in Turkey back in July , but weeks later he cooled on the offer .
 (TOP
   (S
-    (NP (DT The) (NN network))
+    (S
+      (NP (NNP Trump))
+      (VP
+        (VBD suggested)
+        (SBAR
+          (S
+            (NP (NN Ukraine))
+            (VP
+              (MD would)
+              (VP
+                (NN gain)
+                (NP
+                  (DT the)
+                  (NN right)
+                  (S
+                    (VP
+                      (TO to)
+                      (VP
+                        (VB make)
+                        (NP
+                          (NP (NN Patriots))
+                          (PP
+                            (IN on)
+                            (NP
+                              (NP (DT the) (NN side) (NNS lines))
+                              (PP
+                                (IN of)
+                                (NP
+                                  (NP (DT the) (NN NATO) (NN summit))
+                                  (PP (IN in) (NP (NNP Turkey))))))))
+                        (ADVP (RB back))
+                        (PP (IN in) (NP (NNP July)))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNS weeks))
+      (ADJP
+        (JJ later)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBN cooled) (PP (IN on) (NP (DT the) (NN offer))))))))
+    (. .)))
+
+### sentence_id 96: CNN has approached the White House for comment .
+(TOP
+  (S
+    (NP (NN CNN))
     (VP
       (VBZ has)
       (VP
@@ -1587,7 +2337,7 @@
         (PP (IN for) (NP (NN comment)))))
     (. .)))
 
-### sentence_id 97: Saudi Arabia 's allies are rallying to support the country as the rebels step up attacks .
+### sentence_id 97: Saudi Arabia 's allies are rallying to support the country as the Houthi rebels step up attacks .
 (TOP
   (S
     (NP (NP (NNP Saudi) (NNP Arabia) (POS 's)) (NNS allies))
@@ -1601,11 +2351,13 @@
             (VP
               (VB support)
               (NP (DT the) (NN country))
-              (PP (IN as) (NP (DT the) (NNS rebels) (NN step)))
+              (PP
+                (IN as)
+                (NP (DT the) (NN Houthi) (NNS rebels) (NN step)))
               (PP (IN up) (NP (NNS attacks))))))))
     (. .)))
 
-### sentence_id 98: France confirmed on Friday that it is sending troops to guard a major oil terminal .
+### sentence_id 98: France confirmed on Friday that it is sending troops to guard the major oil terminal at Yanbu . Meanwhile , Saudi officials are meeting with peers from Pakistan and Turkiye to discuss options under their mutual defence pact .
 (TOP
   (S
     (NP (NNP France))
@@ -1614,42 +2366,124 @@
       (SBAR
         (IN on)
         (S
-          (NP (NP (NNP Friday)) (PP (IN that) (NP (PRP it))))
+          (ADVP
+            (NP
+              (NP (NNP Friday))
+              (SBAR
+                (IN that)
+                (S
+                  (NP (PRP it))
+                  (VP
+                    (VBZ is)
+                    (VP
+                      (VBG sending)
+                      (NP
+                        (NP (NNS troops))
+                        (PP (TO to) (NP (NN guard))))
+                      (NP (DT the) (JJ major) (NN oil) (NN terminal))
+                      (PP (IN at) (NP (NN Yanbu)))))
+                  (. .))))
+            (RB Meanwhile))
+          (, ,)
+          (NP (NNP Saudi) (NNS officials))
           (VP
-            (VBZ is)
+            (VBP are)
+            (NP
+              (NP (NN meeting))
+              (PP
+                (IN with)
+                (NP
+                  (NP (NN peers))
+                  (PP
+                    (IN from)
+                    (NP
+                      (NP (NNP Pakistan))
+                      (CC and)
+                      (NP (NN Turkiye)))))))
             (S
               (VP
-                (VBG sending)
-                (NP (NP (NNS troops)) (PP (TO to) (NP (NN guard))))
-                (NP (DT a) (JJ major) (NN oil) (NN terminal)))))
+                (TO to)
+                (VP
+                  (VB discuss)
+                  (NP (NNS options))
+                  (PP
+                    (IN under)
+                    (NP
+                      (PRP$ their)
+                      (JJ mutual)
+                      (NN defence)
+                      (NN pact)))))))
           (. .))))))
 
-### sentence_id 99: The terminal hosts major oil storage and refining facilities .
+### sentence_id 99: Yanbu hosts major oil storage and refining facilities and is connected by the East-West Pipeline , which can carry up to seven million barrels a day .
 (TOP
   (S
-    (NP (DT The) (NN terminal))
+    (NP (NN Yanbu))
     (VP
-      (NN hosts)
-      (NP
-        (JJ major)
-        (NN oil)
-        (NN storage)
-        (CC and)
-        (NN refining)
-        (NNS facilities)))
+      (VP
+        (NN hosts)
+        (NP
+          (JJ major)
+          (NN oil)
+          (NN storage)
+          (CC and)
+          (NN refining)
+          (NNS facilities)))
+      (CC and)
+      (VP
+        (VBZ is)
+        (VP
+          (VBN connected)
+          (PP (IN by) (NP (DT the) (NN East-West) (NN Pipeline)))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP
+                (MD can)
+                (VP
+                  (VB carry)
+                  (PRT (RP up))
+                  (PP
+                    (TO to)
+                    (NP (QP (CD seven) (CD million)) (NNS barrels)))
+                  (NP (DT a) (NN day)))))))))
     (. .)))
 
-### sentence_id 100: The rebels have repeatedly fired missiles and drones into Saudi Arabia .
+### sentence_id 100: The Houthis , also known as Ansar Allah ( supporters of God ) , have repeatedly fired missiles and drones into Saudi Arabia , disrupting oil flows from the world 's largest energy exporter .
 (TOP
   (S
-    (NP (DT The) (NNS rebels))
+    (NP
+      (NP (DT The) (NN Houthis))
+      (, ,)
+      (RRC
+        (ADVP (RB also))
+        (VP
+          (VBN known)
+          (PP
+            (IN as)
+            (NP (NN Ansar) (NN Allah) (NN () (NNS supporters)))
+          (PP (IN of) (NP (NNP God) (NN ))))))
+      (, ,))
     (VP
       (VBP have)
       (RB repeatedly)
       (VP
         (VBD fired)
         (NP (NNS missiles) (CC and) (NN drones))
-        (PP (IN into) (NP (NNP Saudi) (NNP Arabia)))))
+        (PP
+          (IN into)
+          (NP
+            (NP (NNP Saudi) (NNP Arabia))
+            (, ,)
+            (NP (NN disrupting) (NN oil) (NNS flows))))
+        (PP
+          (IN from)
+          (NP
+            (NP (DT the) (NN world) (POS 's))
+            (JJS largest)
+            (NN energy)
+            (NN exporter)))))
     (. .)))
 
 ### sentence_id 101: Saudi forces said they had intercepted six ballistic missiles .
@@ -1667,98 +2501,206 @@
             (NP (CD six) (NN ballistic) (NNS missiles))))))
     (. .)))
 
-### sentence_id 102: The foreign ministers of three countries met on Thursday .
+### sentence_id 102: They also condemned Houthi attacks that they claimed targeted Mecca and other civilian sites .
 (TOP
   (S
-    (NP
-      (NP (DT The) (JJ foreign) (NNS ministers))
-      (PP (IN of) (NP (CD three) (NNS countries))))
-    (VP (VBD met) (PP (IN on) (NP (NNP Thursday))))
-    (. .)))
-
-### sentence_id 103: The rebels have been battling the government of Yemen for more than a decade .
-(TOP
-  (S
-    (NP (DT The) (NNS rebels))
+    (NP (PRP They))
+    (ADVP (RB also))
     (VP
-      (VBP have)
-      (VP
-        (VBN been)
+      (VBN condemned)
+      (NP (NN Houthi) (NNS attacks))
+      (SBAR
+        (WHNP (WDT that))
         (S
+          (NP (PRP they))
           (VP
-            (NN battling)
-            (NP (DT the) (NN government))
-            (PP
-              (IN of)
-              (NP
-                (NP (NN Yemen))
-                (PP
-                  (IN for)
-                  (NP (QP (JJR more) (IN than) (DT a)) (NN decade)))))))))
+            (VBD claimed)
+            (NP
+              (VBN targeted)
+              (NN Mecca)
+              (CC and)
+              (JJ other)
+              (NN civilian)
+              (NNS sites))))))
     (. .)))
 
-### sentence_id 104: The United States has not renewed its military involvement .
+### sentence_id 103: Saudi Arabia 's grand mufti called on soldiers to be ready to lay down their lives to fight the Houthis , according to the Saudi state news agency .
 (TOP
   (S
-    (NP (DT The) (NNP United) (NNPS States))
+    (NP (NP (NNP Saudi) (NNP Arabia) (POS 's)) (JJ grand) (NN mufti))
     (VP
-      (VBZ has)
-      (RB not)
-      (VP
-        (VBN renewed)
-        (NP (PRP$ its) (JJ military) (NN involvement))))
+      (VBN called)
+      (PP (IN on) (NP (NNS soldiers)))
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB be)
+            (ADJP
+              (JJ ready)
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VBD lay)
+                    (ADVP
+                      (RB down)
+                      (NP (PRP$ their) (NNS lives))
+                      (PP (TO to) (NP (NN fight))))
+                    (NP (DT the) (NN Houthis))))))
+            (, ,)
+            (S
+              (VP
+                (VBG according)
+                (PP
+                  (TO to)
+                  (NP
+                    (DT the)
+                    (NNP Saudi)
+                    (NN state)
+                    (NN news)
+                    (NN agency)))))))))
     (. .)))
 
-### sentence_id 105: Earlier this month , the rebels seized a Yemeni port and several islands .
+### sentence_id 104: The US has not renewed military involvement , but Saudi Foreign Minister Prince Faisal bin Farhan Al Saud said the kingdom was `` continuing to work with our partners in the US '' .
+(TOP
+  (S
+    (S
+      (NP (DT The) (NNP US))
+      (VP
+        (VBZ has)
+        (RB not)
+        (VP (VBN renewed) (NP (JJ military) (NN involvement)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP
+        (NP
+          (NNP Saudi)
+          (NNP Foreign)
+          (NNP Minister)
+          (NN Prince)
+          (NN Faisal)
+          (NN bin)
+          (NN Farhan))
+        (NNP Al)
+        (NN Saud))
+      (VP
+        (VBD said)
+        (SBAR
+          (S
+            (NP (DT the) (NN kingdom))
+            (VP
+              (VBD was)
+              (NP
+                (`` ``)
+                (NP
+                  (NP (VBG continuing))
+                  (SBAR
+                    (S
+                      (VP
+                        (TO to)
+                        (VP
+                          (VB work)
+                          (PP
+                            (IN with)
+                            (NP (PRP$ our) (NNS partners)))
+                          (PP (IN in) (NP (DT the) (NNP US))))))))
+                ('' '')))))))
+    (. .)))
+
+### sentence_id 105: Earlier this month , the Houthis seized the Yemeni port of Mocha and several Red Sea islands , giving them significant control over the Bab al-Mandeb strait , which usually carries about 12 percent of global oil trade .
 (TOP
   (S
     (NP (JJR Earlier) (DT this) (NN month))
+    (PRN
+      (, ,)
+      (S
+        (NP (DT the) (NN Houthis))
+        (VP
+          (VBD seized)
+          (NP (DT the) (NN Yemeni) (NN port))
+          (PP
+            (IN of)
+            (NP
+              (NP (NN Mocha))
+              (CC and)
+              (NP (JJ several) (NNP Red) (NNP Sea) (NN islands))))))
+      (, ,))
+    (VP
+      (VBG giving)
+      (NP (NP (PRP them)) (JJ significant) (NN control))
+      (PP
+        (IN over)
+        (NP (DT the) (NN Bab) (NN al-Mandeb) (NN strait)))
+      (, ,)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (ADVP (RB usually))
+          (VP
+            (VBZ carries)
+            (SBAR
+              (IN about)
+              (S
+                (NP
+                  (NP (CD 12) (NN percent))
+                  (PP (IN of) (NP (JJ global) (NN oil))))
+                (VP (VB trade))))))))
+    (. .)))
+
+### sentence_id 106: Brent crude rose more than 3 percent on Thursday , briefly topping $ 108 a barrel , before easing to $ 105.77 on Friday morning .
+(flat fallback - not a full parse)
+(TOP
+  (NNP Brent)
+  (JJ crude)
+  (VBD rose)
+  (JJR more)
+  (IN than)
+  (CD 3)
+  (NN percent)
+  (IN on)
+  (NNP Thursday)
+  (, ,)
+  (NN briefly)
+  (NN topping)
+  ($ $)
+  (CD 108)
+  (DT a)
+  (NN barrel)
+  (, ,)
+  (IN before)
+  (VBG easing)
+  (TO to)
+  ($ $)
+  (NN 105.77)
+  (IN on)
+  (NNP Friday)
+  (NN morning)
+  (. .))
+
+### sentence_id 107: The Houthi targeting of Yanbu adds to the pressure on Saudi Arabia 's oil exports .
+(TOP
+  (S
+    (NP
+      (NP (DT The) (NN Houthi))
+      (PP (VBG targeting) (PP (IN of) (NP (NN Yanbu)))))
+    (VP
+      (VBZ adds)
+      (PP
+        (TO to)
+        (NP
+          (NP (DT the) (NN pressure))
+          (PP (IN on) (NP (NNP Saudi) (NNP Arabia) (POS 's)))))
+      (NP (NN oil) (NNS exports)))
+    (. .)))
+
+### sentence_id 108: On Thursday , the rebel group said it had struck the facilities of state oil firm Aramco in Yanbu , and a `` sensitive target '' in Riyadh .
+(TOP
+  (S
+    (PP (IN On) (NP (NNP Thursday)))
     (, ,)
-    (NP (DT the) (NNS rebels))
-    (VP
-      (VBD seized)
-      (NP
-        (NP (DT a) (NN Yemeni) (NN port))
-        (CC and)
-        (NP (JJ several) (NN islands))))
-    (. .)))
-
-### sentence_id 106: Brent crude rose more than three percent on Thursday .
-(TOP
-  (S
-    (NP (NNP Brent))
-    (ADVP (JJ crude))
-    (VP
-      (VBD rose)
-      (NP (QP (JJR more) (IN than) (CD three)) (NN percent))
-      (PP (IN on) (NP (NNP Thursday))))
-    (. .)))
-
-### sentence_id 107: The terminal is connected by a pipeline that can carry millions of barrels a day .
-(TOP
-  (S
-    (NP (DT The) (NN terminal))
-    (VP
-      (VBZ is)
-      (VP
-        (VBN connected)
-        (PP (IN by) (NP (DT a) (NN pipeline)))
-        (PP
-          (IN that)
-          (S
-            (VP
-              (MD can)
-              (VP
-                (VB carry)
-                (NP (NNS millions))
-                (PP (IN of) (NP (NNS barrels)))))))
-        (NP (DT a) (NN day))))
-    (. .)))
-
-### sentence_id 108: The rebel group said it had struck the facilities of a state oil firm .
-(TOP
-  (S
-    (NP (DT The) (NN rebel) (NN group))
+    (NP (DT the) (NN rebel) (NN group))
     (VP
       (VBD said)
       (SBAR
@@ -1766,15 +2708,30 @@
           (NP (PRP it))
           (VP
             (VBD had)
-            (NP (NN struck))
-            (NP (DT the) (NNS facilities))
-            (PP (IN of) (NP (DT a) (NN state) (NN oil) (NN firm)))))))
+            (NP
+              (NP (NN struck))
+              (NP (DT the) (NNS facilities))
+              (PP
+                (IN of)
+                (NP
+                  (NP (NN state) (NN oil) (NN firm) (NN Aramco))
+                  (PP
+                    (IN in)
+                    (NP
+                      (NP (NN Yanbu))
+                      (, ,)
+                      (CC and)
+                      (NP (DT a) (`` ``) (JJ sensitive) (NN target))))))
+              ('' '')
+              (PP (IN in) (NP (NNP Riyadh))))))))
     (. .)))
 
-### sentence_id 109: Both allies are heavily involved as mediators seeking to end the conflicts .
+### sentence_id 109: Both of the Saudi allies are heavily involved as mediators seeking to bring an end to the conflicts across the Middle East .
 (TOP
   (S
-    (NP (DT Both) (NNS allies))
+    (NP
+      (NP (DT Both))
+      (PP (IN of) (NP (DT the) (NNP Saudi) (NNS allies))))
     (VP
       (VBP are)
       (RB heavily)
@@ -1787,183 +2744,343 @@
             (S
               (VP
                 (TO to)
-                (VP (VB end) (NP (DT the) (NNS conflicts)))))))))
+                (VP
+                  (VB bring)
+                  (NP (DT an) (NN end))
+                  (PP (TO to) (NP (DT the) (NNS conflicts)))
+                  (PP (IN across) (NP (DT the) (NN Middle))))))))
+        (NP (NNP East))))
     (. .)))
 
-### sentence_id 110: Strikes have also disrupted the operation of the pipeline linking the terminal to export routes .
+### sentence_id 110: Strikes have also disrupted the operation of the East-West Pipeline linking Yanbu to export routes .
 (TOP
   (S
     (NP (NN Strikes))
     (VP
       (VBP have)
-      (ADVP (RB also) (NP (NN disrupted)))
-      (NP (DT the) (NN operation))
-      (PP (IN of) (NP (DT the) (NN pipeline) (NN linking)))
-      (NP (DT the) (NN terminal))
-      (S (VP (TO to) (VP (VB export) (VP (VBZ routes))))))
+      (RB also)
+      (VP
+        (NN disrupted)
+        (NP
+          (NP
+            (NP (DT the) (NN operation))
+            (PP
+              (IN of)
+              (NP (DT the) (NN East-West) (NN Pipeline) (NN linking))))
+          (NN Yanbu)
+          (S (VP (TO to) (VP (VB export) (VP (VBZ routes))))))))
     (. .)))
 
-### sentence_id 111: The rebels have now forced the exporters to switch some shipments back to another route .
+### sentence_id 111: However , the Houthis have now forced the Saudis to switch some exports back to Hormuz .
 (TOP
   (S
-    (NP (DT The) (NNS rebels))
+    (ADVP (RB However))
+    (, ,)
+    (NP (DT the) (NN Houthis))
     (VP
       (VBP have)
       (RB now)
       (VP
         (VBD forced)
-        (NP (DT the) (NNS exporters))
-        (S
-          (VP
-            (TO to)
+        (NP
+          (DT the)
+          (NN Saudis)
+          (S
             (VP
-              (VB switch)
-              (NP (DT some) (NNS shipments))
-              (ADVP (RB back))
-              (PP (TO to) (NP (DT another) (NN route))))))))
+              (TO to)
+              (VP
+                (VB switch)
+                (NP (DT some) (NNS exports))
+                (ADVP (RB back))))))
+        (PP (TO to) (NP (NN Hormuz)))))
     (. .)))
 
-### sentence_id 112: France is to send soldiers , radars and defence systems to the Red Sea port .
+### sentence_id 112: French President Emmanuel Macron told broadcasters TF1 and France 2 that Paris is to send `` soldiers , radars , and defence systems '' to the Red Sea port of Yanbu .
 (TOP
   (S
-    (NP (NNP France))
+    (NP (JJ French) (NNP President) (NN Emmanuel) (NN Macron))
     (VP
-      (VBZ is)
-      (S
-        (VP
-          (TO to)
+      (VBD told)
+      (NP
+        (NP (NN broadcasters) (NN TF1))
+        (CC and)
+        (NP (NNP France) (CD 2)))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP (NNP Paris))
           (VP
-            (VB send)
-            (NP
-              (NP (NNS soldiers))
-              (, ,)
-              (NP (NN radars) (CC and) (NN defence) (NNS systems)))
-            (PP (TO to) (NP (DT the) (NNP Red) (NNP Sea) (NN port)))))))
+            (VBZ is)
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB send)
+                  (`` ``)
+                  (NP
+                    (NP (NNS soldiers))
+                    (, ,)
+                    (NP (NN radars))
+                    (, ,)
+                    (CC and)
+                    (NP (NN defence) (NNS systems)))
+                  ('' '')
+                  (PP
+                    (TO to)
+                    (NP
+                      (NP (DT the) (NNP Red) (NNP Sea) (NN port))
+                      (PP (IN of) (NP (NN Yanbu))))))))))))
     (. .)))
 
-### sentence_id 113: The Sri Lanka Airport and Aviation Academy has received a silver membership plaque for 2025 .
+### sentence_id 113: The plaque was formally handed over to AASL Chairman Admiral Kanchana Banagoda ( Retd . ) by SLAAA Head Kishantha Nimalaratne during the ninth Board Meeting of AASL held on September 22 .
 (TOP
   (S
-    (NP
-      (DT The)
-      (NN Sri)
-      (NN Lanka)
-      (NN Airport)
-      (CC and)
-      (NN Aviation)
-      (NN Academy))
-    (VP
-      (VBZ has)
+    (S
+      (NP (DT The) (NN plaque))
       (VP
-        (VBN received)
-        (NP (DT a) (NN silver) (NN membership) (NN plaque))
-        (PP (IN for) (NP (NN 2025)))))
+        (VBD was)
+        (RB formally)
+        (VP
+          (VBD handed)
+          (PRT (RP over))
+          (PP
+            (TO to)
+            (NP
+              (NP (NN AASL))
+              (NNP Chairman)
+              (NN Admiral)
+              (NN Kanchana)
+              (NN Banagoda)
+              (NN ()
+              (NN Retd)))))
+      (. .))
+    (NP
+      (NP
+        (NP (NN )))
+        (PP
+          (IN by)
+          (NP (NN SLAAA) (NN Head) (NN Kishantha) (NN Nimalaratne))))
+      (PP
+        (IN during)
+        (NP
+          (NP (DT the) (JJ ninth) (NNP Board) (NN Meeting))
+          (PP (IN of) (NP (NN AASL))))))
+    (VP (VBN held) (PP (IN on) (NP (NNP September) (CD 22))))
     (. .)))
 
-### sentence_id 114: The programme is a global network of aviation training organisations .
+### sentence_id 114: The ICAO TRAINAIR PLUS Programme is a global network of aviation training organisations aimed at improving the quality , safety and efficiency of aviation training worldwide .
 (TOP
   (S
-    (NP (DT The) (NN programme))
+    (NP (DT The) (NN ICAO) (NN TRAINAIR) (NN PLUS) (NN Programme))
     (VP
       (VBZ is)
-      (NP (DT a) (JJ global) (NN network))
-      (PP
-        (IN of)
-        (NP (NN aviation) (NN training) (NN organisations))))
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (JJ global) (NN network))
+            (PP
+              (IN of)
+              (NP (NN aviation) (NN training) (NN organisations))))
+          (VP
+            (VBN aimed)
+            (PP
+              (IN at)
+              (S
+                (VP
+                  (VBG improving)
+                  (NP
+                    (DT the)
+                    (NN quality)
+                    (, ,)
+                    (NN safety)
+                    (CC and)
+                    (NN efficiency))
+                  (PP
+                    (IN of)
+                    (NP (NN aviation) (NN training) (NN worldwide))))))))))
     (. .)))
 
-### sentence_id 115: The academy has been a member of the training programme since 2007 .
+### sentence_id 115: SLAAA has been a member of the ICAO training programme since 2007 and is currently the only training organisation in Sri Lanka holding ICAO TRAINAIR PLUS membership .
 (TOP
   (S
-    (NP (DT The) (NN academy))
+    (NP (NN SLAAA))
     (VP
       (VBZ has)
       (VP
-        (VBN been)
-        (NP (DT a) (NN member))
-        (PP (IN of) (NP (DT the) (NN training) (NN programme)))
-        (PP (IN since) (NP (NN 2007)))))
+        (VP
+          (VBN been)
+          (NP (DT a) (NN member))
+          (PP
+            (IN of)
+            (NP (DT the) (NN ICAO) (NN training) (NN programme)))
+          (PP (IN since) (NP (NN 2007))))
+        (CC and)
+        (VP
+          (VBZ is)
+          (ADVP
+            (RB currently)
+            (NP (DT the) (JJ only) (NN training) (NN organisation))
+            (PP (IN in) (NP (NN Sri) (NN Lanka))))
+          (VP
+            (VBG holding)
+            (NP (NN ICAO) (NN TRAINAIR) (NN PLUS) (NN membership))))))
     (. .)))
 
-### sentence_id 116: The academy said it remains committed to enhancing the quality of aviation training .
+### sentence_id 116: The Academy said its participation in the programme had also contributed to the development of specialised professional expertise .
 (TOP
   (S
-    (NP (DT The) (NN academy))
+    (NP (DT The) (NN Academy))
     (VP
       (VBD said)
       (SBAR
         (S
-          (NP (PRP it))
+          (NP
+            (NP (PRP$ its) (NN participation))
+            (PP (IN in) (NP (DT the) (NN programme))))
           (VP
-            (VBZ remains)
+            (VBD had)
+            (RB also)
             (VP
-              (VBN committed)
+              (VBD contributed)
+              (PP (TO to) (NP (DT the) (NN development)))
               (PP
-                (TO to)
-                (NP (NP (NN enhancing)) (NP (DT the) (NN quality))))
-              (PP (IN of) (NP (NN aviation) (NN training))))))))
+                (IN of)
+                (NP
+                  (NN specialised)
+                  (JJ professional)
+                  (NN expertise))))))))
     (. .)))
 
-### sentence_id 117: In 2025 , an officer was appointed as a validator .
+### sentence_id 117: In 2025 , a SLAAA officer was appointed as an ICAO Instructional Systems Design Validator .
 (TOP
   (S
     (PP (IN In) (NP (NN 2025)))
     (, ,)
-    (NP (DT an) (NN officer))
+    (NP (DT a) (NN SLAAA) (NN officer))
     (VP
       (VBD was)
-      (VP (VBN appointed) (PP (IN as) (NP (DT a) (NN validator)))))
+      (VP
+        (VBN appointed)
+        (PP
+          (IN as)
+          (NP
+            (NP
+              (NP (DT an) (NN ICAO) (NN Instructional))
+              (NNPS Systems))
+            (NN Design)
+            (NN Validator)))))
     (. .)))
 
-### sentence_id 118: The academy is currently the only training organisation in Sri Lanka holding this membership .
+### sentence_id 118: The Associate ( Silver ) membership status is determined through ICAO 's performance measurement system , which assesses participating training organisations against established criteria .
 (TOP
   (S
-    (NP (DT The) (NN academy))
+    (NP
+      (DT The)
+      (NN Associate)
+      (NN ()
+      (NN Silver)
+      (NN ))
+      (NN membership)
+      (NN status))
     (VP
       (VBZ is)
-      (ADVP
-        (RB currently)
-        (NP (DT the) (JJ only) (NN training) (NN organisation))
-        (PP (IN in) (NP (NN Sri) (NN Lanka))))
-      (VP (VBG holding) (NP (DT this) (NN membership))))
+      (VP
+        (VBN determined)
+        (PP
+          (IN through)
+          (NP
+            (NP (NN ICAO) (POS 's))
+            (NN performance)
+            (NN measurement)
+            (NN system)))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP
+              (NN assesses)
+              (NP
+                (NN participating)
+                (NN training)
+                (NN organisations))
+              (PP
+                (IN against)
+                (S (VP (VBD established) (NP (NNS criteria))))))))))
     (. .)))
 
-### sentence_id 119: Cinnamon Lakeside Colombo brings the flavours and traditions of Sweden to the city this October .
+### sentence_id 119: Set against the lakeside setting of 8 Degrees , The Nordic Table will be available from 7:00 p.m. to 10:30 p.m. , priced at Rs.8,500 nett per person .
 (TOP
   (S
-    (NP (NN Cinnamon) (NN Lakeside) (NN Colombo))
-    (VP
-      (VBZ brings)
+    (S
       (NP
-        (NP (DT the) (NN flavours) (CC and) (NN traditions))
-        (PP
-          (IN of)
-          (NP (NP (NNP Sweden)) (PP (TO to) (NP (DT the) (NN city))))))
-      (NP (DT this) (NNP October)))
+        (NP (NN Set))
+        (PP (IN against) (NP (DT the) (NN lakeside))))
+      (VP (VBG setting) (PP (IN of) (NP (CD 8) (NN Degrees)))))
+    (, ,)
+    (NP (NNP The) (NN Nordic) (NN Table))
+    (VP
+      (MD will)
+      (VP
+        (VB be)
+        (ADJP (JJ available) (PP (IN from) (NP (NN 7:00) (NN p.m.))))
+        (PP (TO to) (NP (NN 10:30) (NN p.m.)))
+        (, ,)
+        (S
+          (VP
+            (VBN priced)
+            (PP
+              (IN at)
+              (NP
+                (NP (NN Rs.8,500) (NN nett))
+                (PP (IN per) (NP (NN person)))))))))
     (. .)))
 
-### sentence_id 120: The celebrations begin in October with a special high tea buffet .
+### sentence_id 120: The celebrations begin on October 4 , as The Lounge marks Swedish Cinnamon Bun Day with a special Cinnamon Bun High Tea Buffet .
 (TOP
   (S
     (NP (DT The) (NN celebrations))
     (VP
       (VB begin)
-      (PP (IN in) (NP (NNP October)))
+      (PRT (RP on))
+      (NP
+        (NP (NNP October) (CD 4))
+        (, ,)
+        (SBAR
+          (IN as)
+          (S
+            (NP (DT The) (NN Lounge))
+            (VP
+              (VBZ marks)
+              (NP (NN Swedish) (NN Cinnamon) (NN Bun) (NNP Day))))))
       (PP
         (IN with)
-        (NP (DT a) (JJ special) (NN high) (NN tea) (NN buffet))))
+        (NP
+          (NP (DT a) (JJ special) (NN Cinnamon) (NN Bun))
+          (NNP High)
+          (NN Tea)
+          (NN Buffet))))
     (. .)))
 
-### sentence_id 121: The Swedish culinary journey continues later in the month .
+### sentence_id 121: The Swedish culinary journey continues on October 16 and 17 , with The Nordic Table , a special Swedish buffet at 8 Degrees .
 (TOP
   (S
     (NP (DT The) (NN Swedish) (NN culinary) (NN journey))
     (VP
       (VBZ continues)
-      (ADJP (JJ later) (PP (IN in) (NP (DT the) (NN month)))))
+      (PP (IN on) (NP (NNP October)))
+      (NP (CD 16) (CC and) (CD 17))
+      (, ,)
+      (PP
+        (IN with)
+        (NP
+          (NP
+            (NP (DT The) (NN Nordic) (NN Table))
+            (, ,)
+            (NP (DT a) (JJ special) (NN Swedish) (NN buffet)))
+          (PP (IN at) (NP (CD 8) (NN Degrees))))))
     (. .)))
 
-### sentence_id 122: Chef Carola returns to Colombo to share a taste of Sweden .
+### sentence_id 122: Chef Carola returns to Colombo to share a taste of Sweden through the much-loved tradition of Swedish cinnamon buns and a specially curated Nordic dining experience .
 (TOP
   (S
     (NP
@@ -1974,45 +3091,50 @@
       (VP
         (VB share)
         (NP (DT a) (NN taste))
-        (PP (IN of) (NP (NNP Sweden)))))
-    (. .)))
-
-### sentence_id 123: The visit continues the hotel 's commitment to bringing international cuisine to Colombo .
-(TOP
-  (S
-    (NP (DT The) (NN visit))
-    (VP
-      (VBZ continues)
-      (NP
-        (NP (DT the) (NN hotel) (POS 's))
-        (NN commitment)
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VBG bringing)
-              (NP (JJ international) (NN cuisine))
-              (PP (TO to) (NP (NN Colombo))))))))
-    (. .)))
-
-### sentence_id 124: Nations Trust Bank continues to convene business leaders and entrepreneurs through its advisory platform .
-(TOP
-  (S
-    (NP (NP (NNPS Nations)) (NNP Trust) (NNP Bank))
-    (VP
-      (VBZ continues)
-      (PP
-        (TO to)
-        (NP
+        (PP (IN of) (NP (NNP Sweden)))
+        (PP
+          (IN through)
           (NP
-            (NN convene)
-            (NN business)
-            (NNS leaders)
+            (NP
+              (NP (DT the) (NN much-loved) (NN tradition))
+              (PP (IN of) (NP (NN Swedish) (NN cinnamon) (NN buns))))
             (CC and)
-            (NN entrepreneurs))
-          (PP
-            (IN through)
-            (NP (PRP$ its) (NN advisory) (NN platform))))))
+            (NP
+              (DT a)
+              (NN specially)
+              (NN curated)
+              (NN Nordic)
+              (NN dining)
+              (NN experience))))))
+    (. .)))
+
+### sentence_id 123: For reservations and enquiries , please contact Cinnamon Lakeside Colombo .
+(TOP
+  (SINV
+    (PP
+      (IN For)
+      (NP (NP (NNS reservations)) (CC and) (NP (NN enquiries)) (, ,)))
+    (VP (VB please) (NP (NN contact) (NN Cinnamon)))
+    (NP (NN Lakeside) (NN Colombo))
+    (. .)))
+
+### sentence_id 124: During these hours , other vehicles will not be permitted to use or park in the designated lanes .
+(TOP
+  (S
+    (PP (IN During) (NP (DT these) (NNS hours)))
+    (, ,)
+    (NP (JJ other) (NNS vehicles))
+    (VP
+      (MD will)
+      (RB not)
+      (VP
+        (VB be)
+        (VP
+          (VP (VBN permitted) (S (VP (TO to) (VP (VB use)))))
+          (CC or)
+          (VP
+            (NN park)
+            (PP (IN in) (NP (DT the) (VBN designated) (NN lanes)))))))
     (. .)))
 
 ### sentence_id 125: The latest edition of the platform was held in Kandy .
@@ -2024,18 +3146,30 @@
     (VP (VBD was) (VP (VBN held) (PP (IN in) (NP (NN Kandy)))))
     (. .)))
 
-### sentence_id 126: The chief executive of a local institute delivered the keynote address .
+### sentence_id 126: Advocata Institute CEO Dhananath Fernando delivered the keynote address , sharing perspectives on economic trends , market dynamics and the evolving business landscape .
 (TOP
   (S
     (NP
-      (NP (DT The) (JJ chief) (NN executive))
-      (PP (IN of) (NP (DT a) (JJ local))))
+      (NN Advocata)
+      (NNP Institute)
+      (NNP CEO)
+      (NN Dhananath)
+      (NNP Fernando))
     (VP
-      (VB institute)
-      (VP (VBN delivered) (NP (DT the) (NN keynote) (NN address))))
+      (VBN delivered)
+      (NP
+        (NP (DT the) (NN keynote) (NN address))
+        (, ,)
+        (NP
+          (NP (NN sharing) (NN perspectives))
+          (PP (IN on) (NP (JJ economic) (NNS trends))))
+        (, ,)
+        (NP (NN market) (NNS dynamics))
+        (CC and)
+        (NP (DT the) (NN evolving) (NN business) (NN landscape))))
     (. .)))
 
-### sentence_id 127: The session was followed by a panel discussion featuring several industry leaders .
+### sentence_id 127: The session was followed by a panel discussion featuring Moore Consulting Managing Director and CA Sri Lanka President Tishan Subasinghe , Fernando and NTB Senior Executive Vice President Commercial Banking Arosha Liyanaarachchi .
 (TOP
   (S
     (NP (DT The) (NN session))
@@ -2047,51 +3181,126 @@
         (S
           (VP
             (VBG featuring)
-            (NP (JJ several) (NN industry) (NNS leaders))))))
-    (. .)))
-
-### sentence_id 128: The platform serves as a forum for discussions on key economic and business developments .
-(TOP
-  (S
-    (NP (DT The) (NN platform))
-    (VP
-      (VBZ serves)
-      (RB as)
-      (NP
-        (NP (DT a) (NN forum))
-        (PP
-          (IN for)
-          (NP
-            (NP (NNS discussions))
-            (PP
-              (IN on)
+            (NP
               (NP
-                (JJ key)
-                (UCP (JJ economic) (CC and) (NN business))
-                (NNS developments)))))))
+                (NP
+                  (NNP Moore)
+                  (NN Consulting)
+                  (NN Managing)
+                  (NN Director)
+                  (CC and)
+                  (NN CA)
+                  (NN Sri)
+                  (NN Lanka))
+                (NNP President)
+                (NN Tishan)
+                (NN Subasinghe))
+              (, ,)
+              (NP (NNP Fernando))
+              (CC and)
+              (NP
+                (NP (NN NTB))
+                (NNP Senior)
+                (NN Executive)
+                (NNP Vice)
+                (NNP President)
+                (NN Commercial)
+                (NNP Banking)
+                (NN Arosha)
+                (NN Liyanaarachchi)))))))
     (. .)))
 
-### sentence_id 129: GS1 Lanka marked its tenth annual general meeting with a focus on product identification .
+### sentence_id 128: He added that the lanes could be used by Metro buses as well as other passenger transport buses .
 (TOP
   (S
-    (NP (NN GS1) (NN Lanka))
+    (NP (PRP He))
     (VP
-      (NN marked)
-      (NP
-        (NP
-          (NP
-            (NP (PRP$ its) (NN tenth))
-            (JJ annual)
-            (JJ general)
-            (NN meeting))
-          (PP (IN with) (NP (DT a) (NN focus))))
-        (PP (IN on) (NP (NN product) (NN identification)))))
+      (VBD added)
+      (SBAR
+        (IN that)
+        (S
+          (NP (DT the) (NN lanes))
+          (VP
+            (MD could)
+            (VP
+              (VB be)
+              (VP
+                (VBN used)
+                (PP
+                  (IN by)
+                  (NP
+                    (NP (NN Metro) (NNS buses))
+                    (PP (IN as) (ADVP (RB well)))))
+                (PP
+                  (IN as)
+                  (NP
+                    (JJ other)
+                    (NN passenger)
+                    (NN transport)
+                    (NNS buses)))))))))
     (. .)))
 
-### sentence_id 130: The organisation has been giving Sri Lankan products a globally recognised identity for decades .
+### sentence_id 129: GS1 Sunrise 2027 is a global industry initiative aiming to transition retail checkout systems to read 2D barcodes such as QR codes and Data Matrix codes alongside traditional 1D UPC stripes by end-2027 .
 (TOP
   (S
-    (NP (DT The) (NN organisation))
+    (NP (NN GS1) (NN Sunrise) (NN 2027))
+    (VP
+      (VBZ is)
+      (SBAR
+        (S
+          (NP (DT a) (JJ global) (NN industry) (NN initiative))
+          (VP
+            (VBG aiming)
+            (PP
+              (TO to)
+              (NP
+                (NN transition)
+                (NN retail)
+                (NN checkout)
+                (NNS systems)))
+            (S
+              (VP
+                (TO to)
+                (VP
+                  (VB read)
+                  (NP
+                    (NP (NN 2D) (NN barcodes))
+                    (ADJP
+                      (JJ such)
+                      (PP
+                        (IN as)
+                        (NP
+                          (NP (NN QR) (NN codes))
+                          (CC and)
+                          (NP
+                            (NNP Data)
+                            (NN Matrix)
+                            (NN codes)
+                            (NN alongside)))))
+                    (JJ traditional)
+                    (NN 1D)
+                    (NN UPC)
+                    (NN stripes))
+                  (PP (IN by) (NP (NN end-2027))))))))))
+    (. .)))
+
+### sentence_id 130: Addressing the AGM , GS1 Lanka President Revan Fernando noted that GS1 has been giving Sri Lankan products a globally recognised identity for more than 30 years .
+(TOP
+  (S
+    (NP
+      (NP (NN Addressing))
+      (SBAR
+        (S
+          (NP
+            (NP (DT the) (NN AGM))
+            (, ,)
+            (NP
+              (NN GS1)
+              (NN Lanka)
+              (NNP President)
+              (NN Revan)
+              (NNP Fernando)))
+          (VP (VBD noted) (PP (IN that) (NP (NN GS1)))))))
     (VP
       (VBZ has)
       (VP
@@ -2106,12 +3315,18 @@
                 (ADJP (RB globally))
                 (NN recognised)
                 (NN identity))
-              (PP (IN for) (NP (NNS decades))))))))
+              (PP
+                (IN for)
+                (NP (QP (JJR more) (IN than) (CD 30)) (NNS years))))))))
     (. .)))
 
-### sentence_id 131: GS1 Lanka is working with the retail and healthcare sectors to prepare for the transition .
+### sentence_id 131: Under its Sunrise 2027 initiative , GS1 Lanka is working with the retail and healthcare sectors to prepare the businesses for the transition to 2D barcodes .
 (TOP
   (S
+    (PP
+      (IN Under)
+      (NP (PRP$ its) (NN Sunrise) (NN 2027) (NN initiative)))
+    (, ,)
     (NP (NN GS1) (NN Lanka))
     (VP
       (VBZ is)
@@ -2128,27 +3343,45 @@
             (TO to)
             (VP
               (VB prepare)
-              (PP (IN for) (NP (DT the) (NN transition))))))))
+              (NP (DT the) (NNS businesses))
+              (PP (IN for) (NP (DT the) (NN transition)))
+              (PP (TO to) (NP (NN 2D) (NN barcodes))))))))
     (. .)))
 
-### sentence_id 132: A modern code can connect consumers to a wider range of product information .
+### sentence_id 132: Unlike a conventional barcode used at checkout , a GS1 QR code can also connect consumers to a wider range of product information and support traceability and product verification through the GS1 standards .
 (TOP
   (S
-    (NP (DT A) (JJ modern) (NN code))
+    (SBAR
+      (IN Unlike)
+      (S
+        (NP (DT a) (JJ conventional) (NN barcode))
+        (VP (VBN used) (PP (IN at) (NP (NN checkout))))))
+    (, ,)
+    (NP (DT a) (NN GS1) (NN QR) (NN code))
     (VP
       (MD can)
+      (ADVP
+        (RB also)
+        (NP (NN connect) (NNS consumers))
+        (PP (TO to) (NP (DT a) (NN wider))))
       (VP
-        (NN connect)
-        (NP
-          (NP (NNS consumers))
-          (PP
-            (TO to)
+        (NN range)
+        (PP
+          (IN of)
+          (NP
             (NP
-              (NP (DT a) (NN wider) (NN range))
-              (PP (IN of) (NP (NN product) (NN information))))))))
+              (NN product)
+              (NN information)
+              (CC and)
+              (NN support)
+              (NN traceability)
+              (CC and)
+              (NN product)
+              (NN verification))
+            (PP (IN through) (NP (DT the) (NN GS1) (NNS standards)))))))
     (. .)))
 
-### sentence_id 133: Blink International has acquired Wristlab to elevate the watch retail experience in Sri Lanka .
+### sentence_id 133: Blink International has acquired Wristlab as part of a long-term strategy to elevate the watch retail experience in Sri Lanka .
 (TOP
   (S
     (NP (NP (NN Blink)) (NNP International))
@@ -2156,16 +3389,31 @@
       (VBZ has)
       (VP
         (VBN acquired)
-        (NP (NN Wristlab))
+        (NP (NP (NN Wristlab)) (PP (IN as) (NP (NN part))))
+        (PP (IN of) (NP (DT a) (JJ long-term) (NN strategy)))
         (PP (TO to) (NP (NN elevate)))
         (NP
           (NP (DT the) (NN watch) (NN retail) (NN experience))
           (PP (IN in) (NP (NN Sri) (NN Lanka))))))
     (. .)))
 
-### sentence_id 134: Wristlab was created to fill the market vacuum for a one-stop retail experience .
+### sentence_id 134: Founded in 2019 under Orbit Worldwide ( Pvt . ) Ltd , Wristlab was created to fill the market vacuum for a one-stop retail experience .
 (TOP
   (S
+    (PP
+      (VBN Founded)
+      (PP
+        (IN in)
+        (NP
+          (NP
+            (NP (CD 2019))
+            (PP
+              (IN under)
+              (NP (NN Orbit) (NN Worldwide) (NN () (NN Pvt)))
+            (. .))
+          (NN )))))
+    (NP (NNP Ltd))
+    (, ,)
     (NP (NN Wristlab))
     (VP
       (VBD was)
@@ -2182,19 +3430,44 @@
                 (NP (DT a) (NN one-stop) (NN retail) (NN experience))))))))
     (. .)))
 
-### sentence_id 135: The company operates an extensive distribution network across Sri Lanka .
+### sentence_id 135: Blink founded in 2014 under Avarna Ventures operates an extensive distribution network spanning over 155 authorised doors across Sri Lanka , backed by robust after-sales infrastructure and access to genuine parts .
 (TOP
-  (S
-    (NP (DT The) (NN company))
-    (VP
-      (VBZ operates)
-      (NP (DT an) (JJ extensive) (NN distribution) (NN network))
-      (PP (IN across) (NP (NN Sri) (NN Lanka))))
+  (SINV
+    (S
+      (NP (NN Blink))
+      (VP
+        (VBN founded)
+        (PP
+          (IN in)
+          (NP
+            (NP (NN 2014))
+            (PP (IN under) (NP (NN Avarna) (NN Ventures)))))
+        (S
+          (VP
+            (VBZ operates)
+            (NP
+              (DT an)
+              (JJ extensive)
+              (NN distribution)
+              (NN network)
+              (NN spanning))
+            (PP
+              (IN over)
+              (NP
+                (NP (CD 155) (NN authorised) (NNS doors))
+                (PP (IN across) (NP (NN Sri) (NN Lanka)))))))))
+    (, ,)
+    (VP (VBN backed) (PP (IN by) (NP (NN robust) (NN after-sales))))
+    (NP
+      (NP (NN infrastructure) (CC and) (NN access))
+      (PP (TO to) (NP (JJ genuine) (NNS parts))))
     (. .)))
 
-### sentence_id 136: Wristlab will be developed as a dedicated consumer-facing retail platform .
+### sentence_id 136: Following the acquisition , Wristlab will be developed as Blink 's dedicated consumer-facing retail platform , with the ambition of evolving it into a stronger and more comprehensive multi-brand watch destination in Sri Lanka .
 (TOP
   (S
+    (S (VP (VBG Following) (NP (DT the) (NN acquisition))))
+    (, ,)
     (NP (NN Wristlab))
     (VP
       (MD will)
@@ -2205,19 +3478,119 @@
           (PP
             (IN as)
             (NP
-              (DT a)
+              (NP (NN Blink) (POS 's))
               (NN dedicated)
               (NN consumer-facing)
               (NN retail)
-              (NN platform))))))
+              (NN platform)))
+          (, ,)
+          (PP
+            (IN with)
+            (NP
+              (NP (DT the) (NN ambition))
+              (PP
+                (IN of)
+                (NP
+                  (NP (NN evolving))
+                  (NP
+                    (NP
+                      (NP (PRP it))
+                      (PP
+                        (IN into)
+                        (NP
+                          (DT a)
+                          (ADJP (JJR stronger) (CC and) (JJR more))
+                          (JJ comprehensive)
+                          (NN multi-brand)
+                          (NN watch)
+                          (NN destination))))
+                    (PP (IN in) (NP (NN Sri) (NN Lanka)))))))))))
     (. .)))
 
-### sentence_id 137: LB CIM continues to evolve beyond traditional digital banking .
+### sentence_id 137: The integration delivers a convenient and flexible digital gifting experience while empowering the recipients with the freedom to choose how and where they use their gift .
+(flat fallback - not a full parse)
+(TOP
+  (DT The)
+  (NN integration)
+  (NN delivers)
+  (DT a)
+  (JJ convenient)
+  (CC and)
+  (NN flexible)
+  (NN digital)
+  (NN gifting)
+  (NN experience)
+  (IN while)
+  (NN empowering)
+  (DT the)
+  (NN recipients)
+  (IN with)
+  (DT the)
+  (NN freedom)
+  (TO to)
+  (VB choose)
+  (WRB how)
+  (CC and)
+  (WRB where)
+  (PRP they)
+  (NN use)
+  (PRP$ their)
+  (NN gift)
+  (. .))
+
+### sentence_id 138: It entered into a strategic partnership with Thyaga , Sri Lanka 's premier digital e-gifting voucher platform , to offer digital gifting services directly through the LB CIM app .
 (TOP
   (S
-    (NP (NN LB) (NN CIM))
+    (NP (PRP It))
     (VP
-      (VBZ continues)
+      (VBD entered)
+      (PP
+        (IN into)
+        (NP
+          (NP
+            (NP
+              (NP (DT a) (JJ strategic) (NN partnership))
+              (PP (IN with) (NP (NN Thyaga)))
+              (, ,))
+            (NN Sri)
+            (NN Lanka)
+            (POS 's))
+          (JJ premier)
+          (NN digital)
+          (NN e-gifting)
+          (NN voucher)
+          (NN platform)))
+      (, ,)
+      (S
+        (VP
+          (TO to)
+          (VP
+            (VB offer)
+            (NP (NN digital) (NN gifting) (NNS services))
+            (ADVP (RB directly))
+            (PP (IN through) (NP (DT the) (NN LB) (NN CIM) (NN app)))))))
+    (. .)))
+
+### sentence_id 139: The partnership was officially launched at a signing ceremony held at LB Finance corporate office , marking another milestone in LB CIM 's journey to evolve beyond traditional financial services into a comprehensive lifestyle ecosystem .
+(TOP
+  (SINV
+    (S
+      (NP (DT The) (NN partnership))
+      (VP
+        (VBD was)
+        (RB officially)
+        (VP
+          (VBN launched)
+          (PP (IN at) (NP (DT a) (VBG signing) (NN ceremony)))
+          (S (VP (VBN held) (PP (IN at) (NP (NN LB)))))
+          (NP (NNP Finance) (JJ corporate) (NN office)))))
+    (, ,)
+    (VP
+      (NN marking)
+      (NP (NP (DT another) (NN milestone)) (PP (IN in) (NP (NN LB)))))
+    (NP
+      (NP (NN CIM) (POS 's))
+      (NN journey)
       (S
         (VP
           (TO to)
@@ -2225,141 +3598,255 @@
             (VB evolve)
             (PP
               (IN beyond)
-              (NP (JJ traditional) (NN digital) (NN banking)))))))
+              (NP (JJ traditional) (JJ financial) (NNS services)))
+            (PP
+              (IN into)
+              (NP
+                (DT a)
+                (JJ comprehensive)
+                (NN lifestyle)
+                (NN ecosystem)))))))
     (. .)))
 
-### sentence_id 138: It entered into a strategic partnership with a digital gifting platform .
-(TOP
-  (S
-    (NP (PRP It))
-    (VP
-      (VBD entered)
-      (PP (IN into) (NP (DT a) (JJ strategic) (NN partnership)))
-      (PP
-        (IN with)
-        (NP (DT a) (NN digital) (NN gifting) (NN platform))))
-    (. .)))
-
-### sentence_id 139: The partnership was officially launched at a signing ceremony .
-(TOP
-  (S
-    (NP (DT The) (NN partnership))
-    (VP
-      (VBD was)
-      (RB officially)
-      (VP
-        (VBN launched)
-        (PP (IN at) (NP (DT a) (VBG signing) (NN ceremony)))))
-    (. .)))
-
-### sentence_id 140: The digital gifting feature is now live on the application .
+### sentence_id 140: The digital gifting feature is now live on the LB CIM app .
 (TOP
   (S
     (NP (DT The) (NN digital) (NN gifting) (NN feature))
     (VP
       (VBZ is)
       (RB now)
-      (VP (VB live) (PP (IN on) (NP (DT the) (NN application)))))
-    (. .)))
-
-### sentence_id 141: Recipients can redeem the gifted value across a network of partner merchants .
-(TOP
-  (S
-    (NP (NN Recipients))
-    (VP
-      (MD can)
       (VP
-        (VB redeem)
-        (NP (DT the) (NN gifted) (NN value))
-        (PP (IN across) (NP (DT a) (NN network)))
-        (PP (IN of) (NP (NN partner) (NNS merchants)))))
+        (VB live)
+        (PP (IN on) (NP (DT the) (NN LB) (NN CIM) (NN app)))))
     (. .)))
 
-### sentence_id 142: CEAT Kelani Holdings has retained its national long-term rating for the sixth consecutive year .
+### sentence_id 141: The initiative strengthens LB CIM 's positioning as a next-generation digital platform that integrates finance , lifestyle and essential services into one seamless experience .
 (TOP
   (S
-    (NP (NN CEAT) (NN Kelani) (NNP Holdings))
+    (NP
+      (DT The)
+      (NN initiative)
+      (NN strengthens)
+      (NN LB)
+      (NN CIM)
+      (POS 's))
     (VP
-      (VBZ has)
-      (VP
-        (VBN retained)
-        (NP (PRP$ its) (JJ national) (JJ long-term) (NN rating))
-        (PP
-          (IN for)
-          (NP (DT the) (JJ sixth) (JJ consecutive) (NN year)))))
+      (NN positioning)
+      (PP
+        (IN as)
+        (NP
+          (NP (DT a) (NN next-generation) (NN digital) (NN platform))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (NN integrates)
+                (NP
+                  (NN finance)
+                  (, ,)
+                  (NN lifestyle)
+                  (CC and)
+                  (NN essential)
+                  (NNS services))
+                (PP
+                  (IN into)
+                  (NP (CD one) (NN seamless) (NN experience)))))))))
     (. .)))
 
-### sentence_id 143: The rating is the second-highest national rating on the agency 's scale .
+### sentence_id 142: Stable Outlook reflects resilient financial profile and confidence in company 's ability to navigate cost pressures and competitive intensity .
 (TOP
   (S
-    (NP (DT The) (NN rating))
-    (VP
-      (VBZ is)
-      (NP
-        (NP (DT the) (NN second-highest))
-        (JJ national)
-        (NN rating))
-      (PP (IN on) (NP (NP (DT the) (NN agency) (POS 's)) (NN scale))))
-    (. .)))
-
-### sentence_id 144: The agency expects the company to maintain its leading position in the industry .
-(TOP
-  (S
-    (NP (DT The) (NN agency))
-    (VP
-      (VBZ expects)
-      (NP
-        (DT the)
-        (NN company)
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VB maintain)
-              (NP (PRP$ its) (ADJP (VBG leading)) (NN position))
-              (PP (IN in) (NP (DT the) (NN industry))))))))
-    (. .)))
-
-### sentence_id 145: The stable outlook reflects a resilient financial profile .
-(TOP
-  (S
-    (NP (DT The) (NN stable) (NN outlook))
+    (NP (NN Stable) (NN Outlook))
     (VP
       (VBZ reflects)
-      (NP (DT a) (JJ resilient) (JJ financial) (NN profile)))
+      (NP
+        (JJ resilient)
+        (JJ financial)
+        (NN profile)
+        (CC and)
+        (NN confidence))
+      (PP (IN in) (NP (NP (NN company) (POS 's)) (NN ability)))
+      (PP
+        (TO to)
+        (NP
+          (NP (NN navigate) (NN cost) (NNS pressures))
+          (CC and)
+          (NP (JJ competitive) (NN intensity)))))
     (. .)))
 
-### sentence_id 146: Ambeon Capital has signed an agreement to establish investment desks in Colombo and Chennai .
+### sentence_id 143: The 'AA+ ( lka ) ' rating is the second-highest national rating on Fitch 's scale and reflects a very strong capacity to meet financial commitments .
 (TOP
   (S
-    (NP (NP (NN Ambeon)) (NNP Capital))
+    (NP (DT The) (NN 'AA+) (NN () (NN lka) (NN )) ('' ') (NN rating))
     (VP
-      (VBZ has)
       (VP
-        (VBN signed)
-        (NP (DT an) (NN agreement))
-        (S
-          (VP
-            (TO to)
-            (VP
-              (VB establish)
-              (NP (NN investment) (NN desks))
-              (PP (IN in) (NP (NN Colombo) (CC and) (NN Chennai))))))))
+        (VBZ is)
+        (NP
+          (NP (DT the) (NN second-highest))
+          (JJ national)
+          (NN rating))
+        (PP (IN on) (NP (NP (NN Fitch) (POS 's)) (NN scale))))
+      (CC and)
+      (VP
+        (VBZ reflects)
+        (NP
+          (NP (DT a) (ADJP (RB very) (JJ strong)) (NN capacity))
+          (SBAR
+            (S
+              (VP
+                (TO to)
+                (VP (VB meet) (NP (JJ financial) (NNS commitments)))))))))
     (. .)))
 
-### sentence_id 147: The Colombo desk will focus on facilitating investment into India .
+### sentence_id 144: It also reflects Fitch 's expectation that the company will preserve adequate credit metrics despite periods of weaker earnings and elevated investment requirements .
+(TOP
+  (S
+    (NP (PRP It))
+    (ADVP (RB also))
+    (VP
+      (VBZ reflects)
+      (SBAR
+        (S
+          (NP
+            (NP (NP (NN Fitch) (POS 's)) (NN expectation))
+            (PP (IN that) (NP (DT the) (NN company))))
+          (VP
+            (MD will)
+            (VP
+              (NN preserve)
+              (NP
+                (NP
+                  (NP (JJ adequate) (NN credit) (NN metrics))
+                  (PP
+                    (IN despite)
+                    (NP
+                      (NP (NNS periods))
+                      (PP (IN of) (NP (JJR weaker) (NNS earnings))))))
+                (CC and)
+                (NP (NN elevated) (NN investment) (NNS requirements))))))))
+    (. .)))
+
+### sentence_id 145: The Stable Outlook reflects Fitch 's expectation that CKH will maintain its market position amid rising input costs and intensifying competition from imported tyres .
+(TOP
+  (S
+    (NP (DT The) (NN Stable) (NN Outlook))
+    (VP
+      (VBZ reflects)
+      (SBAR
+        (S
+          (NP
+            (NP (NP (NN Fitch) (POS 's)) (NN expectation))
+            (PP (IN that) (NP (NN CKH))))
+          (VP
+            (MD will)
+            (VP
+              (VB maintain)
+              (NP (PRP$ its) (NN market) (NN position))
+              (PP
+                (IN amid)
+                (S
+                  (VP
+                    (VBG rising)
+                    (NP
+                      (NN input)
+                      (NNS costs)
+                      (CC and)
+                      (NN intensifying)
+                      (NN competition))
+                    (PP (IN from) (NP (VBN imported) (NN tyres)))))))))))
+    (. .)))
+
+### sentence_id 146: The Sri Lanka fund is intended to create a structured channel for capital into listed and private Sri Lankan companies , leveraging complementary deal flow , research and investor networks on both sides of the Palk Strait .
+(TOP
+  (SINV
+    (S
+      (NP (DT The) (NN Sri) (NN Lanka) (NN fund))
+      (VP
+        (VBZ is)
+        (VP
+          (VBN intended)
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB create)
+                (S
+                  (NP (DT a))
+                  (VP
+                    (VBN structured)
+                    (S
+                      (VP
+                        (VBP channel)
+                        (PP (IN for) (NP (NN capital)))
+                        (PP
+                          (IN into)
+                          (NP
+                            (UCP
+                              (ADJP (VBN listed))
+                              (CC and)
+                              (NP (JJ private) (NN Sri) (NN Lankan)))
+                            (NNS companies)))))))))))))
+    (, ,)
+    (VP
+      (VBG leveraging)
+      (NP (NN complementary) (NN deal))
+      (NP
+        (NN flow)
+        (, ,)
+        (NN research)
+        (CC and)
+        (NN investor)
+        (NNS networks))
+      (PP (IN on) (NP (DT both) (NNS sides)))
+      (PP (IN of) (NP (DT the) (NN Palk))))
+    (NP (NNP Strait))
+    (. .)))
+
+### sentence_id 147: The Colombo desk will be hosted by Ambeon ( or an affiliate ) , with a primary focus on facilitating investment into India and other agreed markets , while also originating Sri Lankan opportunities .
 (TOP
   (S
     (NP (DT The) (NN Colombo) (NN desk))
     (VP
       (MD will)
       (VP
-        (VB focus)
-        (PP (IN on) (NP (NN facilitating) (NN investment)))
-        (PP (IN into) (NP (NNP India)))))
+        (VB be)
+        (VP
+          (VBD hosted)
+          (PP
+            (IN by)
+            (NP
+              (NP (NN Ambeon) (NN ())
+              (CC or)
+              (NP
+                (NP (DT an) (NN affiliate) (NN )))
+                (, ,)
+                (SBAR
+                  (IN with)
+                  (S
+                    (NP
+                      (NP (DT a) (JJ primary) (NN focus))
+                      (PP
+                        (IN on)
+                        (NP
+                          (NP (NN facilitating) (NN investment))
+                          (PP
+                            (IN into)
+                            (NP
+                              (NP (NNP India))
+                              (CC and)
+                              (NP (JJ other)))))))
+                    (VP (VBD agreed) (NP (NNS markets)))))
+                (, ,))))
+          (PP
+            (IN while)
+            (NP
+              (NP (RB also) (NN originating))
+              (NN Sri)
+              (NN Lankan)
+              (NNS opportunities))))))
     (. .)))
 
-### sentence_id 148: The Chennai desk will be hosted by a partner firm .
+### sentence_id 148: The Chennai desk will be hosted by Sincere Syndication , with Avyukthi providing tax , regulatory , structuring , diligence and transaction-support capabilities .
 (TOP
   (S
     (NP (DT The) (NN Chennai) (NN desk))
@@ -2369,29 +3856,74 @@
         (VB be)
         (VP
           (VBD hosted)
-          (PP (IN by) (NP (DT a) (NN partner) (NN firm))))))
+          (PP
+            (IN by)
+            (NP
+              (NP (NN Sincere) (NN Syndication))
+              (, ,)
+              (PP
+                (IN with)
+                (NP (NN Avyukthi) (VBG providing) (NN tax)))
+              (, ,)
+              (ADJP (JJ regulatory))
+              (, ,)))
+          (NP
+            (NN structuring)
+            (, ,)
+            (NN diligence)
+            (CC and)
+            (NN transaction-support)
+            (NN capabilities)))))
     (. .)))
 
-### sentence_id 149: The company is working on the launch of a dedicated fund focused on Sri Lankan companies .
+### sentence_id 149: In parallel , Ambeon is working with the partners on the launch of a dedicated Sri Lanka fund focused on Sri Lankan companies , structured in partnership with Sincere Syndication 's Bharat Transformation Fund .
 (TOP
-  (S
-    (NP (DT The) (NN company))
+  (SINV
+    (S
+      (PP (IN In) (NP (VB parallel)))
+      (, ,)
+      (NP (NN Ambeon))
+      (VP
+        (VBZ is)
+        (S
+          (VP
+            (VBG working)
+            (SBAR
+              (IN with)
+              (S
+                (NP
+                  (NP (DT the) (NNS partners))
+                  (PP
+                    (IN on)
+                    (NP
+                      (NP (DT the) (NN launch))
+                      (PP
+                        (IN of)
+                        (NP
+                          (DT a)
+                          (NN dedicated)
+                          (NN Sri)
+                          (NN Lanka)
+                          (NN fund))))))
+                (VP
+                  (VBN focused)
+                  (PP
+                    (IN on)
+                    (NP (NN Sri) (NN Lankan) (NNS companies))))))))))
+    (, ,)
     (VP
-      (VBZ is)
-      (S
-        (VP
-          (VBG working)
-          (SBAR
-            (IN on)
-            (S
-              (NP
-                (NP (DT the) (NN launch))
-                (PP (IN of) (NP (DT a) (NN dedicated) (NN fund))))
-              (VP
-                (VBN focused)
-                (PP
-                  (IN on)
-                  (NP (NN Sri) (NN Lankan) (NNS companies)))))))))
+      (VBN structured)
+      (PP
+        (IN in)
+        (NP
+          (NP
+            (NAC
+              (NN partnership)
+              (PP (IN with) (NP (NN Sincere) (NN Syndication))))
+            (POS 's))
+          (NN Bharat)
+          (NN Transformation))))
+    (NP (NNP Fund))
     (. .)))
 
 ### sentence_id 150: Indian capital is increasingly looking beyond domestic borders for growth opportunities .
