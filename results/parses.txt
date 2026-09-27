@@ -3674,29 +3674,37 @@
           (NP (JJ competitive) (NN intensity)))))
     (. .)))
 
-### sentence_id 143: The 'AA+ ( lka ) ' rating is the second-highest national rating on Fitch 's scale and reflects a very strong capacity to meet financial commitments .
+### sentence_id 143: The ' AA+ ( lka ) ' rating is the second-highest national rating on Fitch 's scale and reflects a very strong capacity to meet financial commitments .
+(flat fallback - not a full parse)
 (TOP
-  (S
-    (NP (DT The) (NN 'AA+) (NN () (NN lka) (NN )) ('' ') (NN rating))
-    (VP
-      (VP
-        (VBZ is)
-        (NP
-          (NP (DT the) (NN second-highest))
-          (JJ national)
-          (NN rating))
-        (PP (IN on) (NP (NP (NN Fitch) (POS 's)) (NN scale))))
-      (CC and)
-      (VP
-        (VBZ reflects)
-        (NP
-          (NP (DT a) (ADJP (RB very) (JJ strong)) (NN capacity))
-          (SBAR
-            (S
-              (VP
-                (TO to)
-                (VP (VB meet) (NP (JJ financial) (NNS commitments)))))))))
-    (. .)))
+  (DT The)
+  (POS ')
+  (NN AA+)
+  (NN ()
+  (NN lka)
+  (NN ))
+  ('' ')
+  (NN rating)
+  (VBZ is)
+  (DT the)
+  (NN second-highest)
+  (JJ national)
+  (NN rating)
+  (IN on)
+  (NN Fitch)
+  (POS 's)
+  (NN scale)
+  (CC and)
+  (VBZ reflects)
+  (DT a)
+  (RB very)
+  (JJ strong)
+  (NN capacity)
+  (TO to)
+  (VB meet)
+  (JJ financial)
+  (NNS commitments)
+  (. .))
 
 ### sentence_id 144: It also reflects Fitch 's expectation that the company will preserve adequate credit metrics despite periods of weaker earnings and elevated investment requirements .
 (TOP
